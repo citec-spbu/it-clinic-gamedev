@@ -2638,3 +2638,310 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.25-20.59.42:751][634]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
 [2025.10.25-20.59.42:761][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
 [2025.10.25-20.59.42:960][635]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.10.25-21.01.56:357][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.10.25-21.01.56:372][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TestMap/1/G1/C1154PH34U1F2RS2PR8RZR_Auto5
+[2025.10.25-21.01.56:372][208]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/C1154PH34U1F2RS2PR8RZR_Auto55EE1745A42BF2667FA9247A5CA1AC5DA.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Autosaves/Game/__ExternalActors__/TestMap/1/G1/C1154PH34U1F2RS2PR8RZR_Auto5.uasset'
+[2025.10.25-21.01.56:373][208]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TestMap' took 0.053
+[2025.10.25-21.01.56:373][208]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2025.10.25-21.01.56:374][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Hound/Hound_death/hound_death] ([1] browsable assets)...
+[2025.10.25-21.01.56:374][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Hound/Hound_death/hound_death]
+[2025.10.25-21.01.56:385][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Enemies/Hound/Hound_death/hound_death_Auto5
+[2025.10.25-21.01.56:385][208]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/hound_death_Auto56E45FE3C4A40C33B088856B85BB48625.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Autosaves/Game/Assets/Enemies/Hound/Hound_death/hound_death_Auto5.uasset'
+[2025.10.25-21.01.56:386][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Hound/Hound_idle/hound_idle] ([1] browsable assets)...
+[2025.10.25-21.01.56:386][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Hound/Hound_idle/hound_idle]
+[2025.10.25-21.01.56:396][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Enemies/Hound/Hound_idle/hound_idle_Auto5
+[2025.10.25-21.01.56:396][208]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/hound_idle_Auto5C1D62A704E7CDFFE67DFC99C877980B6.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Autosaves/Game/Assets/Enemies/Hound/Hound_idle/hound_idle_Auto5.uasset'
+[2025.10.25-21.01.56:397][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Hound/Hound_walk/hound_walk] ([1] browsable assets)...
+[2025.10.25-21.01.56:397][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Hound/Hound_walk/hound_walk]
+[2025.10.25-21.01.56:407][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Enemies/Hound/Hound_walk/hound_walk_Auto5
+[2025.10.25-21.01.56:407][208]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/hound_walk_Auto5425A2DBA4C3F5326D46BE0B487CA56B2.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Autosaves/Game/Assets/Enemies/Hound/Hound_walk/hound_walk_Auto5.uasset'
+[2025.10.25-21.01.56:408][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemies/Hound/AS_Hound] ([1] browsable assets)...
+[2025.10.25-21.01.56:408][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemies/Hound/AS_Hound]
+[2025.10.25-21.01.56:418][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemies/Hound/AS_Hound_Auto5
+[2025.10.25-21.01.56:418][208]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/AS_Hound_Auto5213ED5CA4B5E246DCEBB93859DC3A4F4.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Autosaves/Game/Blueprints/Enemies/Hound/AS_Hound_Auto5.uasset'
+[2025.10.25-21.01.56:419][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemies/Hound/Hound] ([2] browsable assets)...
+[2025.10.25-21.01.56:419][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemies/Hound/Hound]
+[2025.10.25-21.01.56:446][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemies/Hound/Hound_Auto5
+[2025.10.25-21.01.56:446][208]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Hound_Auto5E6D9ECC4452C780E44A9BBA3B83175A2.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Autosaves/Game/Blueprints/Enemies/Hound/Hound_Auto5.uasset'
+[2025.10.25-21.01.56:447][208]LogFileHelpers: Auto-saving content packages took 0.074
+[2025.10.25-21.04.20:605][641]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4354.208984
+[2025.10.25-21.04.21:620][644]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.25-21.04.21:620][644]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4354.876953, Update Interval: 318.743256
+[2025.10.25-21.10.23:987][730]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4717.593262
+[2025.10.25-21.10.24:992][733]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.25-21.10.24:992][733]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4718.259277, Update Interval: 359.707031
+[2025.10.25-21.12.54:291][181]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.25-21.12.54:291][181]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.25-21.12.58:340][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.25-21.12.58:430][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemies/Hound/ABP_Hound] ([2] browsable assets)...
+[2025.10.25-21.12.58:430][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemies/Hound/ABP_Hound]
+[2025.10.25-21.12.58:450][407]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemies/Hound/ABP_Hound
+[2025.10.25-21.12.58:451][407]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/ABP_HoundB6BA14864386C110CA5987BF1EE63EEA.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Blueprints/Enemies/Hound/ABP_Hound.uasset'
+[2025.10.25-21.12.58:464][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.871 ms (total: 2.67 sec)
+[2025.10.25-21.12.58:544][407]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.25-21.12.58:544][407]LogContentValidation: Enabled validators:
+[2025.10.25-21.12.58:544][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.25-21.12.58:544][407]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.25-21.12.58:544][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.25-21.12.58:544][407]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.25-21.12.58:544][407]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.25-21.12.58:544][407]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.25-21.12.58:545][407]AssetCheck: /Game/Blueprints/Enemies/Hound/ABP_Hound Проверка ресурса
+[2025.10.25-21.13.00:359][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.10.25-21.13.11:897][499]LogSlate: Window 'Сохранять контент' being destroyed
+[2025.10.25-21.13.11:921][499]LogAutomationController: Ignoring very large delta of 11.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.25-21.13.20:699][992]LogDebuggerCommands: Repeating last play command: Выбранное окно просмотра
+[2025.10.25-21.13.20:708][992]LogContentBundle: [TestMap(Редактор)] Generating Streaming for 0 Content Bundles.
+[2025.10.25-21.13.20:708][992]LogWorldPartition: Display: GenerateStreaming for 'TestMap' started...
+[2025.10.25-21.13.20:709][992]LogWorldPartition: Display: GenerateStreaming for 'TestMap' took 1.168 ms (total: 57.391 ms)
+[2025.10.25-21.13.20:709][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.25-21.13.20:709][992]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2025.10.25-21.13.20:734][992]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.25-21.13.20:741][992]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.162 ms (total: 62.522 ms)
+[2025.10.25-21.13.20:741][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032323s)
+[2025.10.25-21.13.20:741][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.032359s)
+[2025.10.25-21.13.20:775][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.10.25-21.13.20:777][992]LogChaosDD: Creating Chaos Debug Draw Scene for world TestMap
+[2025.10.25-21.13.20:779][992]LogWorldPartition: ULevel::OnLevelLoaded(TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.25-21.13.20:779][992]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.25-21.13.20:779][992]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_TestMap.TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.25-21.13.20:779][992]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.25-21.13.20:787][992]LogWorldPartition: Display: WorldPartition initialize took 8.198 ms (total: 2.39 sec)
+[2025.10.25-21.13.20:787][992]LogPlayLevel: PIE: World Init took: (0.010303s)
+[2025.10.25-21.13.20:788][992]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.10.25-21.13.20:788][992]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.25-21.13.20:788][992]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.25-21.13.20:788][992]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.25-21.13.20:788][992]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.25-21.13.20:788][992]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.25-21.13.20:788][992]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.25-21.13.20:788][992]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.25-21.13.20:788][992]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.25-21.13.20:788][992]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.25-21.13.20:788][992]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.25-21.13.20:788][992]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.25-21.13.20:793][992]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.25-21.13.20:807][992]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek(R) Audio)
+[2025.10.25-21.13.20:807][992]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.25-21.13.20:807][992]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.25-21.13.20:807][992]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.25-21.13.20:807][992]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.10.25-21.13.20:807][992]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.10.25-21.13.20:811][992]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.10.25-21.13.20:811][992]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.10.25-21.13.20:811][992]LogInit: FAudioDevice initialized with ID 9.
+[2025.10.25-21.13.20:811][992]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestMap'.
+[2025.10.25-21.13.20:811][992]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.25-21.13.20:815][992]LogLoad: Game class is 'Gamemode_Base_C'
+[2025.10.25-21.13.20:817][992]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2025.10.26-00.13.20
+[2025.10.25-21.13.20:817][992]LogWorld: Bringing up level for play took: 0.001888
+[2025.10.25-21.13.20:820][992]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.10.25-21.13.20:841][992]LogStreaming: Display: FlushAsyncLoading(849,850): 2 QueuedPackages, 0 AsyncPackages
+[2025.10.25-21.13.21:594][992]PIE: Сервер вошел в систему
+[2025.10.25-21.13.21:596][992]PIE: Общее время запуска игры в редакторе: 0,889
+[2025.10.25-21.13.35:912][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.25-21.13.35:912][685]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2025.10.25-21.13.35:913][685]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.25-21.13.35:913][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.25-21.13.35:913][685]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_TestMap.TestMap
+[2025.10.25-21.13.35:915][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.25-21.13.35:921][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.25-21.13.35:951][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.25-21.13.35:952][685]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.25-21.13.35:952][685]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.10.25-21.13.35:954][685]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.10.25-21.13.35:963][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2025.10.25-21.13.36:123][686]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.10.25-21.13.40:600][887]LogDebuggerCommands: Repeating last play command: Выбранное окно просмотра
+[2025.10.25-21.13.40:613][887]LogContentBundle: [TestMap(Редактор)] Generating Streaming for 0 Content Bundles.
+[2025.10.25-21.13.40:613][887]LogWorldPartition: Display: GenerateStreaming for 'TestMap' started...
+[2025.10.25-21.13.40:614][887]LogWorldPartition: Display: GenerateStreaming for 'TestMap' took 1.454 ms (total: 58.846 ms)
+[2025.10.25-21.13.40:615][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.25-21.13.40:615][887]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2025.10.25-21.13.40:641][887]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.25-21.13.40:649][887]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.971 ms (total: 70.493 ms)
+[2025.10.25-21.13.40:649][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034163s)
+[2025.10.25-21.13.40:649][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.034207s)
+[2025.10.25-21.13.40:693][887]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2025.10.25-21.13.40:695][887]LogChaosDD: Creating Chaos Debug Draw Scene for world TestMap
+[2025.10.25-21.13.40:698][887]LogWorldPartition: ULevel::OnLevelLoaded(TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.25-21.13.40:698][887]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.25-21.13.40:698][887]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_TestMap.TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.25-21.13.40:698][887]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.25-21.13.40:710][887]LogWorldPartition: Display: WorldPartition initialize took 11.996 ms (total: 2.40 sec)
+[2025.10.25-21.13.40:710][887]LogPlayLevel: PIE: World Init took: (0.015389s)
+[2025.10.25-21.13.40:712][887]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.10.25-21.13.40:712][887]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.25-21.13.40:712][887]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.25-21.13.40:712][887]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.25-21.13.40:712][887]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.25-21.13.40:712][887]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.25-21.13.40:712][887]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.25-21.13.40:712][887]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.25-21.13.40:712][887]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.25-21.13.40:712][887]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.25-21.13.40:712][887]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.25-21.13.40:712][887]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.25-21.13.40:715][887]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.25-21.13.40:729][887]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek(R) Audio)
+[2025.10.25-21.13.40:729][887]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.25-21.13.40:729][887]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.25-21.13.40:729][887]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.25-21.13.40:730][887]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.10.25-21.13.40:730][887]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.10.25-21.13.40:733][887]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.10.25-21.13.40:733][887]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.10.25-21.13.40:733][887]LogInit: FAudioDevice initialized with ID 10.
+[2025.10.25-21.13.40:733][887]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestMap'.
+[2025.10.25-21.13.40:733][887]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.25-21.13.40:738][887]LogLoad: Game class is 'Gamemode_Base_C'
+[2025.10.25-21.13.40:740][887]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2025.10.26-00.13.40
+[2025.10.25-21.13.40:740][887]LogWorld: Bringing up level for play took: 0.001895
+[2025.10.25-21.13.40:744][887]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.10.25-21.13.40:773][887]LogStreaming: Display: FlushAsyncLoading(851,852): 2 QueuedPackages, 0 AsyncPackages
+[2025.10.25-21.13.41:570][887]PIE: Сервер вошел в систему
+[2025.10.25-21.13.41:573][887]PIE: Общее время запуска игры в редакторе: 0,96
+[2025.10.25-21.13.50:162][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.25-21.13.50:163][209]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2025.10.25-21.13.50:163][209]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.25-21.13.50:164][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.25-21.13.50:164][209]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_TestMap.TestMap
+[2025.10.25-21.13.50:165][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.25-21.13.50:171][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.25-21.13.50:203][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.25-21.13.50:203][209]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.25-21.13.50:204][209]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.10.25-21.13.50:207][209]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.10.25-21.13.50:217][209]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.10.25-21.13.50:612][210]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.10.25-21.14.06:269][915]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.25-21.14.06:378][915]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TestMap/1/G1/C1154PH34U1F2RS2PR8RZR
+[2025.10.25-21.14.06:379][915]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/C1154PH34U1F2RS2PR8RZRE8A7D22B4778588A99AD0D957E1D8F10.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/__ExternalActors__/TestMap/1/G1/C1154PH34U1F2RS2PR8RZR.uasset'
+[2025.10.25-21.14.06:400][915]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.543 ms (total: 2.80 sec)
+[2025.10.25-21.14.06:486][915]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.25-21.14.06:486][915]LogContentValidation: Enabled validators:
+[2025.10.25-21.14.06:486][915]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.25-21.14.06:486][915]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.25-21.14.06:486][915]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.25-21.14.06:486][915]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.25-21.14.06:486][915]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.25-21.14.06:486][915]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.25-21.14.06:488][915]AssetCheck: /Game/TestMap Проверка ресурса
+[2025.10.25-21.14.06:532][915]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.25-21.14.07:491][963]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.10.25-21.14.16:549][963]LogSlate: Window 'Сохранять контент' being destroyed
+[2025.10.25-21.14.16:576][963]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.25-21.14.16:734][963]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemies/Hound/AS_Hound] ([1] browsable assets)...
+[2025.10.25-21.14.16:735][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemies/Hound/AS_Hound]
+[2025.10.25-21.14.16:735][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/Hound/AS_Hound" FILE="../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Blueprints/Enemies/Hound/AS_Hound.uasset" SILENT=true
+[2025.10.25-21.14.16:765][963]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemies/Hound/AS_Hound
+[2025.10.25-21.14.16:765][963]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/AS_HoundE242ADD141127DA256BC0FAA14477514.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Blueprints/Enemies/Hound/AS_Hound.uasset'
+[2025.10.25-21.14.16:769][963]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemies/Hound/Hound] ([2] browsable assets)...
+[2025.10.25-21.14.16:769][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemies/Hound/Hound]
+[2025.10.25-21.14.16:769][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/Hound/Hound" FILE="../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Blueprints/Enemies/Hound/Hound.uasset" SILENT=true
+[2025.10.25-21.14.16:816][963]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemies/Hound/Hound
+[2025.10.25-21.14.16:816][963]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/Hound1D9F01DF4C501B56AC93C3AAD4B11312.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Blueprints/Enemies/Hound/Hound.uasset'
+[2025.10.25-21.14.16:819][963]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Hound/Hound_death/hound_death] ([1] browsable assets)...
+[2025.10.25-21.14.16:819][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Hound/Hound_death/hound_death]
+[2025.10.25-21.14.16:842][963]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Hound/Hound_death/hound_death
+[2025.10.25-21.14.16:842][963]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/hound_deathCAADBC074F4FD9773FB36AB884EAE3E2.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Assets/Enemies/Hound/Hound_death/hound_death.uasset'
+[2025.10.25-21.14.16:847][963]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Hound/Hound_idle/hound_idle] ([1] browsable assets)...
+[2025.10.25-21.14.16:847][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Hound/Hound_idle/hound_idle]
+[2025.10.25-21.14.16:863][963]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Hound/Hound_idle/hound_idle
+[2025.10.25-21.14.16:863][963]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/hound_idle9E723E314756678CD9F9C1AE95D51203.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Assets/Enemies/Hound/Hound_idle/hound_idle.uasset'
+[2025.10.25-21.14.16:866][963]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Hound/Hound_walk/hound_walk] ([1] browsable assets)...
+[2025.10.25-21.14.16:866][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Hound/Hound_walk/hound_walk]
+[2025.10.25-21.14.16:888][963]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Hound/Hound_walk/hound_walk
+[2025.10.25-21.14.16:888][963]LogSavePackage: Moving '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/hound_walkB3A5A0474F9AE2734307A5938367AB26.tmp' to '../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Content/Assets/Enemies/Hound/Hound_walk/hound_walk.uasset'
+[2025.10.25-21.14.16:915][963]LogFileHelpers: InternalPromptForCheckoutAndSave took 339.673 ms (total: 3.14 sec)
+[2025.10.25-21.14.17:157][963]LogStall: Shutdown...
+[2025.10.25-21.14.17:157][963]LogStall: Shutdown complete.
+[2025.10.25-21.14.17:264][963]LogSlate: Window 'MusicGame — Unreal Editor' being destroyed
+[2025.10.25-21.14.19:465][963]LogContentValidation: Display: Starting to validate 5 assets
+[2025.10.25-21.14.19:465][963]LogContentValidation: Enabled validators:
+[2025.10.25-21.14.19:465][963]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.25-21.14.19:465][963]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.25-21.14.19:465][963]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.25-21.14.19:465][963]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.25-21.14.19:465][963]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.25-21.14.19:465][963]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.25-21.14.19:465][963]AssetCheck: /Game/Blueprints/Enemies/Hound/AS_Hound Проверка ресурса
+[2025.10.25-21.14.19:465][963]AssetCheck: /Game/Blueprints/Enemies/Hound/Hound Проверка ресурса
+[2025.10.25-21.14.19:465][963]AssetCheck: /Game/Assets/Enemies/Hound/Hound_death/hound_death Проверка ресурса
+[2025.10.25-21.14.19:465][963]AssetCheck: /Game/Assets/Enemies/Hound/Hound_idle/hound_idle Проверка ресурса
+[2025.10.25-21.14.19:465][963]AssetCheck: /Game/Assets/Enemies/Hound/Hound_walk/hound_walk Проверка ресурса
+[2025.10.25-21.14.19:467][963]LogAutomationController: Ignoring very large delta of 12.02 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.25-21.14.19:468][963]Cmd: QUIT_EDITOR
+[2025.10.25-21.14.19:469][963]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.25-21.14.19:470][963]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Nikita/game project/it-clinic-gamedev/MusicGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.25-21.14.19:484][964]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.25-21.14.19:488][964]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.25-21.14.19:489][964]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.25-21.14.19:498][964]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.25-21.14.19:499][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.25-21.14.19:499][964]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TestMap.TestMap
+[2025.10.25-21.14.19:553][964]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.25-21.14.19:557][964]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.25-21.14.19:579][964]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.25-21.14.19:660][964]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.25-21.14.19:660][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.25-21.14.19:684][964]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.25-21.14.19:686][964]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.25-21.14.19:707][964]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.25-21.14.20:098][964]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.25-21.14.20:098][964]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.25-21.14.20:098][964]LogAudio: Display: Audio Device unregistered from world 'TestMap'.
+[2025.10.25-21.14.20:098][964]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.25-21.14.20:099][964]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.25-21.14.20:120][964]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.25-21.14.20:186][964]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.25-21.14.20:186][964]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.25-21.14.20:191][964]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.25-21.14.20:213][964]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.25-21.14.20:223][964]LogExit: Preparing to exit.
+[2025.10.25-21.14.20:706][964]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2025.10.25-21.14.20:733][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:735][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:742][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:744][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:744][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:745][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:746][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:746][964]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.20:746][964]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.25-21.14.21:908][964]LogEditorDataStorage: Deinitializing
+[2025.10.25-21.14.22:381][964]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.25-21.14.22:630][964]LogExit: Editor shut down
+[2025.10.25-21.14.22:680][964]LogExit: Transaction tracking system shut down
+[2025.10.25-21.14.24:635][964]LogExit: Object subsystem successfully closed.
+[2025.10.25-21.14.24:740][964]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.25-21.14.25:362][964]LogMemoryProfiler: Shutdown
+[2025.10.25-21.14.25:364][964]LogNetworkingProfiler: Shutdown
+[2025.10.25-21.14.25:365][964]LoadingProfiler: Shutdown
+[2025.10.25-21.14.25:365][964]LogTimingProfiler: Shutdown
+[2025.10.25-21.14.25:379][964]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.25-21.14.25:380][964]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.25-21.14.27:323][964]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.25-21.14.27:327][964]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.25-21.14.27:387][964]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.25-21.14.27:387][964]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFAF6D09E-4652-9416-5420-F19C2C432694%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=288b5e8b4c12206393a9f891824c5596%7C29dc2729bc9f4858ac41afd830a79e70%7C36a3df7c-3a94-4d8b-b1c8-017b4ea0cff1&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.25-21.14.28:023][964]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.25-21.14.28:038][964]RenderDocPlugin: plugin has been unloaded.
+[2025.10.25-21.14.28:085][964]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.25-21.14.28:085][964]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.25-21.14.28:087][964]LogPakFile: Destroying PakPlatformFile
+[2025.10.25-21.14.29:668][964]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.25-21.14.29:766][964]LogExit: Exiting.
+[2025.10.25-21.14.29:948][964]Log file closed, 10/26/25 00:14:29
