@@ -5,16 +5,8 @@
 AHero_Base::AHero_Base() {
 }
 //-------------------------------------------------------------------------------------------------------------
-int AHero_Base::Test_Function(int param) {
-	return param + 100;
-}
-//-------------------------------------------------------------------------------------------------------------
-void AHero_Base::Redraw()
+void AHero_Base::Count_Combo()
 {
-    UE_LOG(LogTemp, Warning, TEXT("Redraw called!"));
-    if (GEngine)
-    {
-        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Redraw called!"));
-    }
+    UE_LOG(LogTemp, Warning, TEXT("Count_Combo called!"));
 }
 //-------------------------------------------------------------------------------------------------------------

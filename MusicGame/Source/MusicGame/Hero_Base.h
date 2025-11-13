@@ -13,12 +13,21 @@ class MUSICGAME_API AHero_Base : public APaperZDCharacter {
 public:
 	AHero_Base();
 
-	// Функции и переменная ниже написаны только для примера и более быстрого вникания,
-	// они доступны при добавлении event-ов в blueprint-е Blueprint_Hero
-	UFUNCTION(BlueprintCallable) int Test_Function(int param);
+protected:
+	UFUNCTION(BlueprintCallable, Category = "Hero")
+	void Count_Combo();
 
-	UFUNCTION(BlueprintCallable, Category = "Hero") void Redraw();
+	UPROPERTY(BlueprintReadWrite)
+	double damage;
 
-	UPROPERTY(BlueprintReadWrite) int Test_Data;
+	UPROPERTY(BlueprintReadWrite)
+	double timer;
+
+	UPROPERTY(BlueprintReadWrite)
+	TArray<double> timer_array;
+
+	UPROPERTY(BlueprintReadWrite)
+	bool is_reinforced = false;
+
 };
 //-------------------------------------------------------------------------------------------------------------
