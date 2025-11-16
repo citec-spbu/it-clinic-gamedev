@@ -4,30 +4,57 @@
 #include "PaperZDCharacter.h"
 #include "Hero_Base.generated.h"
 
-
-//-------------------------------------------------------------------------------------------------------------
 UCLASS()
-class MUSICGAME_API AHero_Base : public APaperZDCharacter {
-	GENERATED_BODY()
+class MUSICGAME_API AHero_Base : public APaperZDCharacter
+{
+    GENERATED_BODY()
 
 public:
-	AHero_Base();
+    AHero_Base();
 
-protected:
-	UFUNCTION(BlueprintCallable, Category = "Hero")
-	void Count_Combo();
+    virtual void Tick(float DeltaTime) override;
+    virtual void BeginPlay() override;
 
-	UPROPERTY(BlueprintReadWrite)
-	double damage;
+    // Вызывать при выстреле (например, из блюпринта или кода)
+    UFUNCTION(BlueprintCallable, Category = "Hero|Combat")
+    void RegisterShot();
 
-	UPROPERTY(BlueprintReadWrite)
-	double timer;
+    // Вызывать на каждый бит музыки
+    UFUNCTION(BlueprintCallable, Category = "Hero|Combat")
+    void Count_Combo();
 
-	UPROPERTY(BlueprintReadWrite)
-	TArray<double> timer_array;
+    // Текущий урон (с учётом комбо)
+    UPROPERTY(BlueprintReadOnly, Category = "Hero|Combat")
+    double Damage;
 
-	UPROPERTY(BlueprintReadWrite)
-	bool is_reinforced = false;
+    // Флаг усиленного режима по текущему урону
+    UPROPERTY(BlueprintReadOnly, Category = "Hero|Combat")
+    bool IsReinforced;
 
+    UPROPERTY(BlueprintReadWrite, Category = "Hero|Combat")
+    bool IsFailed;
+
+    UPROPERTY(BlueprintReadWrite, Category = "Hero|Combat")
+    bool IsCanReinforced;
+
+    // Настройки окна попадания и сил комбо
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
+    double BeatWindow = 0.3;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
+    double DamageStep = 2.0;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
+    double MinDamage = 10.0;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
+    double MaxDamage = 50.0;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
+    double ReinforcedThreshold = 15.0;
+
+private:
+    // Сервисные поля:
+    double Timer;                  // Таймер с предыдущего бита
+    TArray<double> ShotTimes;      // Времена всех выстрелов с прошлого бита
 };
-//-------------------------------------------------------------------------------------------------------------
