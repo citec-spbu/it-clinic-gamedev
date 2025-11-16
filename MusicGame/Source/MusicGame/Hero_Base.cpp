@@ -79,6 +79,10 @@ void AHero_Base::Count_Combo()
         // ќбновл€ем флаг усилени€: если текущий урон превышает порог Ч активен усиленный режим
         //IsReinforced = (Damage >= ReinforcedThreshold);
     }
+    else {
+        IsReinforced = false;
+        Damage = MinDamage;
+    }
     // ќчищаем массив выстрелов и сбрасываем таймер дл€ следующего бита
     ShotTimes.Empty();
     Timer = 0.0;
