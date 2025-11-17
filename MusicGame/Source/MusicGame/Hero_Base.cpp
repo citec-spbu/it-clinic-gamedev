@@ -1,5 +1,6 @@
 #include "Hero_Base.h"
 #include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 
 AHero_Base::AHero_Base()
 {
@@ -27,63 +28,82 @@ void AHero_Base::Tick(float DeltaTime)
 
 void AHero_Base::RegisterShot()
 {
-    // ‘иксируем врем€ выстрела дл€ последующего анализа в Count_Combo
-    ShotTimes.Add(Timer);
+    double Now = UGameplayStatics::GetTimeSeconds(GetWorld());
+        ShotTimes.Add(Now);
 }
 
 void AHero_Base::Count_Combo()
 {
-    // ќкно попадани€ в бит: [Timer - BeatWindow; Timer]
-    double WindowStart = Timer - BeatWindow;
-    double WindowEnd = Timer;
+    if (!GetWorld()) return;
 
-    if (IsCanReinforced) {
+    // захватываем момент бита именно сейчас (BeatTime)
+    double BeatTimeNow = UGameplayStatics::GetTimeSeconds(GetWorld());
+    PendingBeats.Add(BeatTimeNow);
 
-        bool ShotInWindow = true;
-        //bool ShotOutsideWindow = false;
+    // ставим таймер, который вызовет ProcessCountCombo через задержку BeatWindow
+    FTimerHandle ComboTimerHandle;
+    GetWorld()->GetTimerManager().SetTimer(
+        ComboTimerHandle,
+        this,
+        &AHero_Base::ProcessCountCombo,
+        BeatWindow,  // задержка
+        false
+    );
+}
 
-        // ѕроверим все выстрелы с прошлого бита: какие в окне, какие вне окна
+void AHero_Base::ProcessCountCombo()
+{
+    if (!GetWorld()) return;
+
+    double Now = UGameplayStatics::GetTimeSeconds(GetWorld());
+    UE_LOG(LogTemp, Log, TEXT("[Hero] ProcessCountCombo called Now=%f Pending=%d Shots=%d"),
+        Now, PendingBeats.Num(), ShotTimes.Num());
+    // —оберЄм все PendingBeats, которые ещЄ не обработаны.
+    // (ѕоскольку мы ставим таймер на каждый scheduled beat, обычно они все уже готовы.)
+    TArray<double> BeatsToProcess = PendingBeats;
+    PendingBeats.Empty(); // помечаем их как "в обработке/удал€ем" Ч предотвратит повторную обработку
+
+    for (double BeatTime : BeatsToProcess)
+    {
+        double WindowStart = BeatTime - BeatWindow;
+        double WindowEnd = BeatTime + BeatWindow;
+
+        bool ShotInWindow = false;
         for (double ShotTime : ShotTimes)
         {
-            if (!(ShotTime >= WindowStart && ShotTime <= WindowEnd)) {
-                ShotInWindow = false;
-                break;
+            if (ShotTime >= WindowStart && ShotTime <= WindowEnd)
+            {
+                ShotInWindow = true;
             }
+            else {
+                ShotInWindow = false;
+            }
+            
         }
 
-        if (ShotTimes.IsEmpty())
+        if (!ShotInWindow)
         {
-            // Ќет выстрелов в окне бита Ч урон падает
-            Damage -= DamageStep;
-            if (Damage < MinDamage)
+            if (ShotTimes.Num() == 0)
+            {
+                Damage -= DamageStep;
+                if (Damage < MinDamage) Damage = MinDamage;
+            }
+            else
+            {
                 Damage = MinDamage;
+                IsFailed = true;
+            }
             IsReinforced = false;
         }
-        else if (!ShotInWindow)
+        else
         {
-            // —брос комбо Ч выстрел был вне окна
-            Damage = MinDamage;
-            IsFailed = true;
-            IsReinforced = false;
-        }
-        else if (ShotInWindow)
-        {
-            // ”спешное попадание по биту Ч увеличиваем урон
             Damage += DamageStep;
-            if (Damage > MaxDamage)
-                Damage = MaxDamage;
+            if (Damage > MaxDamage) Damage = MaxDamage;
             IsReinforced = true;
+            IsFailed = false;
         }
 
-
-        // ќбновл€ем флаг усилени€: если текущий урон превышает порог Ч активен усиленный режим
-        //IsReinforced = (Damage >= ReinforcedThreshold);
+        // удал€ем из ShotTimes всЄ, что уже обработано (<= правой границы)
+        ShotTimes.RemoveAll([WindowEnd](double T) { return T <= WindowEnd; });
     }
-    else {
-        IsReinforced = false;
-        Damage = MinDamage;
-    }
-    // ќчищаем массив выстрелов и сбрасываем таймер дл€ следующего бита
-    ShotTimes.Empty();
-    Timer = 0.0;
 }

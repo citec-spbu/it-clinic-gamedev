@@ -23,6 +23,9 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Hero|Combat")
     void Count_Combo();
 
+    // Вызывать через таймер — считает попадания в окно
+    void ProcessCountCombo();
+
     // Текущий урон (с учётом комбо)
     UPROPERTY(BlueprintReadOnly, Category = "Hero|Combat")
     double Damage;
@@ -39,7 +42,7 @@ public:
 
     // Настройки окна попадания и сил комбо
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
-    double BeatWindow = 0.3;
+    double BeatWindow = 0.19;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
     double DamageStep = 2.0;
@@ -56,5 +59,9 @@ public:
 private:
     // Сервисные поля:
     double Timer;                  // Таймер с предыдущего бита
-    TArray<double> ShotTimes;      // Времена всех выстрелов с прошлого бита
+    // Абсолютные времена выстрелов (GetTimeSeconds)
+    TArray<double> ShotTimes;
+
+    // Моменты битов, которые нужно обработать (хранятся в момент ScheduleCountCombo)
+    TArray<double> PendingBeats;
 };
