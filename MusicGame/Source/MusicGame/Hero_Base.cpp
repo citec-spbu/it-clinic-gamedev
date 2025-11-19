@@ -85,7 +85,7 @@ void AHero_Base::ProcessCountCombo()
         {
             if (ShotTimes.Num() == 0)
             {
-                Damage -= DamageStep;
+                Damage -= 2*DamageStep;
                 if (Damage < MinDamage) Damage = MinDamage;
             }
             else

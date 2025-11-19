@@ -45,13 +45,13 @@ public:
     double BeatWindow = 0.19;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
-    double DamageStep = 2.0;
+    double DamageStep = 15.0;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
     double MinDamage = 10.0;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
-    double MaxDamage = 50.0;
+    double MaxDamage = 70.0;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
     double ReinforcedThreshold = 15.0;
