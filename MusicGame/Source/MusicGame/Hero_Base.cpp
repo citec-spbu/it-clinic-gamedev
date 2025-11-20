@@ -34,7 +34,12 @@ void AHero_Base::RegisterShot()
 
 void AHero_Base::Count_Combo()
 {
-    if (!GetWorld()) return;
+    if (!GetWorld()) {
+        return;
+    }
+    if (!IsCanReinforced) {
+        return;
+    }
 
     // захватываем момент бита именно сейчас (BeatTime)
     double BeatTimeNow = UGameplayStatics::GetTimeSeconds(GetWorld());
@@ -46,7 +51,7 @@ void AHero_Base::Count_Combo()
         ComboTimerHandle,
         this,
         &AHero_Base::ProcessCountCombo,
-        BeatWindow,  // задержка
+        BeatWindow,  // задержка чтобы посчитать попадания, если игрок нажал позже бита
         false
     );
 }
