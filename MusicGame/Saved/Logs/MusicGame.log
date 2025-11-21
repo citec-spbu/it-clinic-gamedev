@@ -2864,3 +2864,1080 @@ AMD Radeon (TM) Graphics
 [2025.11.21-02.06.55:678][143]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
 [2025.11.21-02.06.55:728][143]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
 [2025.11.21-02.06.55:845][144]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.11.21-02.12.21:936][937]LogEditorTransaction: Undo Редактировать Draw As
+[2025.11.21-02.12.30:631][374]LogSlate: Window 'Палитра' being destroyed
+[2025.11.21-02.12.38:153][797]LogEditorTransaction: Undo Редактировать Draw As
+[2025.11.21-02.12.46:505][222]LogSlate: Window 'Палитра' being destroyed
+[2025.11.21-02.12.51:777][517]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4412.644043
+[2025.11.21-02.12.52:093][521]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.21-02.12.52:093][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4412.941895, Update Interval: 337.752014
+[2025.11.21-02.12.57:222][813]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2025.11.21-02.13.03:710][ 94]LogDebuggerCommands: Repeating last play command: Выбранное окно просмотра
+[2025.11.21-02.13.03:730][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-02.13.03:730][ 94]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.13.03:755][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023750s)
+[2025.11.21-02.13.03:755][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLvl.FirstLvl to /Game/UEDPIE_0_FirstLvl.FirstLvl (0.024126s)
+[2025.11.21-02.13.03:802][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2025.11.21-02.13.03:819][ 94]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstLvl
+[2025.11.21-02.13.03:822][ 94]LogPlayLevel: PIE: World Init took: (0.003237s)
+[2025.11.21-02.13.03:824][ 94]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.11.21-02.13.03:824][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-02.13.03:824][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-02.13.03:824][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-02.13.03:824][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-02.13.03:824][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-02.13.03:824][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-02.13.03:824][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-02.13.03:824][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-02.13.03:824][ 94]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-02.13.03:824][ 94]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-02.13.03:824][ 94]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-02.13.03:831][ 94]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-02.13.04:149][ 94]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.11.21-02.13.04:150][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-02.13.04:150][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-02.13.04:150][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-02.13.04:151][ 94]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.11.21-02.13.04:151][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.11.21-02.13.04:157][ 94]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.11.21-02.13.04:157][ 94]LogInit: FAudioDevice initialized with ID 6.
+[2025.11.21-02.13.04:157][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.11.21-02.13.04:157][ 94]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstLvl'.
+[2025.11.21-02.13.04:158][ 94]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.21-02.13.04:262][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.13.04:263][ 94]LogLoad: Game class is 'Gamemode_Base_C'
+[2025.11.21-02.13.04:384][ 94]LogWorld: Bringing World /Game/UEDPIE_0_FirstLvl.FirstLvl up for play (max tick rate 60) at 2025.11.21-05.13.04
+[2025.11.21-02.13.04:437][ 94]LogWorld: Bringing up level for play took: 0.173078
+[2025.11.21-02.13.04:443][ 94]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.11.21-02.13.22:930][ 94]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.21-02.13.22:948][ 94]PIE: Сервер вошел в систему
+[2025.11.21-02.13.22:959][ 94]PIE: Общее время запуска игры в редакторе: 19,23
+[2025.11.21-02.13.23:072][ 95]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2025.11.21-02.13.23:072][ 95]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2025.11.21-02.13.32:675][197]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_0.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.13.33:308][205]LogTemp: [Hero] ProcessCountCombo called Now=9.129903 Pending=1 Shots=0
+[2025.11.21-02.13.33:850][212]LogTemp: [Hero] ProcessCountCombo called Now=9.670200 Pending=1 Shots=0
+[2025.11.21-02.13.34:503][221]LogTemp: [Hero] ProcessCountCombo called Now=10.326032 Pending=1 Shots=0
+[2025.11.21-02.13.34:858][226]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.13.35:148][230]LogTemp: [Hero] ProcessCountCombo called Now=10.975144 Pending=1 Shots=0
+[2025.11.21-02.13.35:771][238]LogTemp: [Hero] ProcessCountCombo called Now=11.585835 Pending=1 Shots=0
+[2025.11.21-02.13.35:913][240]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.13.36:360][246]LogTemp: [Hero] ProcessCountCombo called Now=12.178734 Pending=1 Shots=0
+[2025.11.21-02.13.37:012][254]LogTemp: [Hero] ProcessCountCombo called Now=12.827539 Pending=1 Shots=0
+[2025.11.21-02.13.37:657][262]LogTemp: [Hero] ProcessCountCombo called Now=13.477708 Pending=1 Shots=0
+[2025.11.21-02.13.38:300][270]LogTemp: [Hero] ProcessCountCombo called Now=14.115083 Pending=1 Shots=0
+[2025.11.21-02.13.38:861][277]LogTemp: [Hero] ProcessCountCombo called Now=14.680140 Pending=1 Shots=0
+[2025.11.21-02.13.39:467][285]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.13.39:469][285]LogTemp: [Hero] ProcessCountCombo called Now=15.290792 Pending=1 Shots=0
+[2025.11.21-02.13.40:078][293]LogTemp: [Hero] ProcessCountCombo called Now=15.895143 Pending=1 Shots=0
+[2025.11.21-02.13.40:717][301]LogTemp: [Hero] ProcessCountCombo called Now=16.541754 Pending=1 Shots=0
+[2025.11.21-02.13.41:409][310]LogTemp: [Hero] ProcessCountCombo called Now=17.231204 Pending=1 Shots=0
+[2025.11.21-02.13.42:041][318]LogTemp: [Hero] ProcessCountCombo called Now=17.855293 Pending=1 Shots=0
+[2025.11.21-02.13.42:598][325]LogTemp: [Hero] ProcessCountCombo called Now=18.414010 Pending=1 Shots=0
+[2025.11.21-02.13.43:081][331]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_1.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.13.43:251][333]LogTemp: [Hero] ProcessCountCombo called Now=19.066276 Pending=1 Shots=0
+[2025.11.21-02.13.43:829][340]LogTemp: [Hero] ProcessCountCombo called Now=19.645778 Pending=1 Shots=0
+[2025.11.21-02.13.44:450][348]LogTemp: [Hero] ProcessCountCombo called Now=20.277015 Pending=1 Shots=0
+[2025.11.21-02.13.44:982][356]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.13.45:044][357]LogTemp: [Hero] ProcessCountCombo called Now=20.881123 Pending=1 Shots=0
+[2025.11.21-02.13.45:348][361]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.13.45:558][364]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.13.45:701][366]LogTemp: [Hero] ProcessCountCombo called Now=21.530760 Pending=1 Shots=0
+[2025.11.21-02.13.46:056][371]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.13.46:335][375]LogTemp: [Hero] ProcessCountCombo called Now=22.163008 Pending=1 Shots=0
+[2025.11.21-02.13.46:993][383]LogTemp: [Hero] ProcessCountCombo called Now=22.799999 Pending=1 Shots=0
+[2025.11.21-02.13.47:622][389]LogTemp: [Hero] ProcessCountCombo called Now=23.420701 Pending=1 Shots=0
+[2025.11.21-02.13.48:268][395]LogTemp: [Hero] ProcessCountCombo called Now=24.057163 Pending=1 Shots=0
+[2025.11.21-02.13.48:492][397]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_2.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.13.48:940][402]LogTemp: [Hero] ProcessCountCombo called Now=24.755543 Pending=1 Shots=0
+[2025.11.21-02.13.49:509][409]LogTemp: [Hero] ProcessCountCombo called Now=25.324284 Pending=1 Shots=0
+[2025.11.21-02.13.50:154][417]LogTemp: [Hero] ProcessCountCombo called Now=25.968163 Pending=1 Shots=0
+[2025.11.21-02.13.50:831][425]LogTemp: [Hero] ProcessCountCombo called Now=26.645809 Pending=1 Shots=0
+[2025.11.21-02.13.51:433][432]LogTemp: [Hero] ProcessCountCombo called Now=27.243364 Pending=1 Shots=0
+[2025.11.21-02.13.52:043][439]LogTemp: [Hero] ProcessCountCombo called Now=27.854543 Pending=1 Shots=0
+[2025.11.21-02.13.52:695][446]LogTemp: [Hero] ProcessCountCombo called Now=28.498599 Pending=1 Shots=0
+[2025.11.21-02.13.53:244][451]LogTemp: [Hero] ProcessCountCombo called Now=29.047964 Pending=1 Shots=0
+[2025.11.21-02.13.53:906][459]LogTemp: [Hero] ProcessCountCombo called Now=29.726142 Pending=1 Shots=0
+[2025.11.21-02.13.54:447][466]LogTemp: [Hero] ProcessCountCombo called Now=30.261248 Pending=1 Shots=0
+[2025.11.21-02.13.54:526][467]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.13.55:136][475]LogTemp: [Hero] ProcessCountCombo called Now=30.961711 Pending=1 Shots=0
+[2025.11.21-02.13.55:602][481]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.13.55:768][483]LogTemp: [Hero] ProcessCountCombo called Now=31.585492 Pending=1 Shots=0
+[2025.11.21-02.13.56:419][491]LogTemp: [Hero] ProcessCountCombo called Now=32.241104 Pending=1 Shots=0
+[2025.11.21-02.13.56:643][494]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.13.56:944][498]LogTemp: [Hero] ProcessCountCombo called Now=32.769306 Pending=1 Shots=0
+[2025.11.21-02.13.57:625][507]LogTemp: [Hero] ProcessCountCombo called Now=33.450011 Pending=1 Shots=0
+[2025.11.21-02.13.58:285][515]LogTemp: [Hero] ProcessCountCombo called Now=34.109604 Pending=1 Shots=0
+[2025.11.21-02.13.58:793][522]LogTemp: [Hero] ProcessCountCombo called Now=34.621266 Pending=1 Shots=0
+[2025.11.21-02.13.59:084][526]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.13.59:158][527]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.13.59:459][531]LogTemp: [Hero] ProcessCountCombo called Now=35.285347 Pending=1 Shots=0
+[2025.11.21-02.14.00:111][540]LogTemp: [Hero] ProcessCountCombo called Now=35.939055 Pending=1 Shots=0
+[2025.11.21-02.14.00:757][550]LogTemp: [Hero] ProcessCountCombo called Now=36.589874 Pending=1 Shots=0
+[2025.11.21-02.14.01:345][559]LogTemp: [Hero] ProcessCountCombo called Now=37.178105 Pending=1 Shots=0
+[2025.11.21-02.14.01:935][568]LogTemp: [Hero] ProcessCountCombo called Now=37.768780 Pending=1 Shots=0
+[2025.11.21-02.14.02:613][579]LogTemp: [Hero] ProcessCountCombo called Now=38.444689 Pending=1 Shots=0
+[2025.11.21-02.14.03:188][588]LogTemp: [Hero] ProcessCountCombo called Now=39.022480 Pending=1 Shots=0
+[2025.11.21-02.14.03:771][597]LogTemp: [Hero] ProcessCountCombo called Now=39.605501 Pending=1 Shots=0
+[2025.11.21-02.14.04:409][607]LogTemp: [Hero] ProcessCountCombo called Now=40.243449 Pending=1 Shots=0
+[2025.11.21-02.14.05:046][617]LogTemp: [Hero] ProcessCountCombo called Now=40.881408 Pending=1 Shots=0
+[2025.11.21-02.14.05:678][627]LogTemp: [Hero] ProcessCountCombo called Now=41.513577 Pending=1 Shots=0
+[2025.11.21-02.14.06:308][636]LogTemp: [Hero] ProcessCountCombo called Now=42.127448 Pending=1 Shots=0
+[2025.11.21-02.14.06:982][644]LogTemp: [Hero] ProcessCountCombo called Now=42.798956 Pending=1 Shots=0
+[2025.11.21-02.14.07:399][649]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_3.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.14.07:651][652]LogTemp: [Hero] ProcessCountCombo called Now=43.470713 Pending=1 Shots=0
+[2025.11.21-02.14.08:254][660]LogTemp: [Hero] ProcessCountCombo called Now=44.081278 Pending=1 Shots=0
+[2025.11.21-02.14.08:601][665]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.14.08:743][667]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.14.08:820][668]LogTemp: [Hero] ProcessCountCombo called Now=44.644758 Pending=1 Shots=0
+[2025.11.21-02.14.09:464][677]LogTemp: [Hero] ProcessCountCombo called Now=45.294717 Pending=1 Shots=0
+[2025.11.21-02.14.10:180][686]LogTemp: [Hero] ProcessCountCombo called Now=45.999102 Pending=1 Shots=0
+[2025.11.21-02.14.10:733][693]LogTemp: [Hero] ProcessCountCombo called Now=46.565525 Pending=1 Shots=0
+[2025.11.21-02.14.11:334][702]LogTemp: [Hero] ProcessCountCombo called Now=47.161671 Pending=1 Shots=0
+[2025.11.21-02.14.11:400][703]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.14.11:977][711]LogTemp: [Hero] ProcessCountCombo called Now=47.795327 Pending=1 Shots=0
+[2025.11.21-02.14.12:643][719]LogTemp: [Hero] ProcessCountCombo called Now=48.462327 Pending=1 Shots=0
+[2025.11.21-02.14.13:142][726]LogTemp: [Hero] ProcessCountCombo called Now=48.976667 Pending=1 Shots=0
+[2025.11.21-02.14.13:946][736]LogTemp: [Hero] ProcessCountCombo called Now=49.753082 Pending=1 Shots=0
+[2025.11.21-02.14.14:513][743]LogTemp: [Hero] ProcessCountCombo called Now=50.336520 Pending=1 Shots=0
+[2025.11.21-02.14.15:064][751]LogTemp: [Hero] ProcessCountCombo called Now=50.899476 Pending=1 Shots=0
+[2025.11.21-02.14.15:280][754]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.14.15:716][760]LogTemp: [Hero] ProcessCountCombo called Now=51.544623 Pending=1 Shots=0
+[2025.11.21-02.14.16:379][768]LogTemp: [Hero] ProcessCountCombo called Now=52.197711 Pending=1 Shots=0
+[2025.11.21-02.14.17:000][776]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_4.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.14.17:000][776]LogTemp: [Hero] ProcessCountCombo called Now=52.815406 Pending=1 Shots=0
+[2025.11.21-02.14.17:625][784]LogTemp: [Hero] ProcessCountCombo called Now=53.446471 Pending=1 Shots=0
+[2025.11.21-02.14.18:193][791]LogTemp: [Hero] ProcessCountCombo called Now=54.011299 Pending=1 Shots=0
+[2025.11.21-02.14.18:552][796]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_5.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.14.18:843][800]LogTemp: [Hero] ProcessCountCombo called Now=54.674977 Pending=1 Shots=0
+[2025.11.21-02.14.18:973][802]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.14.19:442][809]LogTemp: [Hero] ProcessCountCombo called Now=55.277823 Pending=1 Shots=0
+[2025.11.21-02.14.19:505][810]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.14.19:754][814]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.14.20:013][818]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.14.20:078][819]LogTemp: [Hero] ProcessCountCombo called Now=55.911815 Pending=1 Shots=0
+[2025.11.21-02.14.20:529][826]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.14.20:654][828]LogTemp: [Hero] ProcessCountCombo called Now=56.489190 Pending=1 Shots=0
+[2025.11.21-02.14.21:293][838]LogTemp: [Hero] ProcessCountCombo called Now=57.128408 Pending=1 Shots=0
+[2025.11.21-02.14.21:936][848]LogTemp: [Hero] ProcessCountCombo called Now=57.765770 Pending=1 Shots=0
+[2025.11.21-02.14.22:532][857]LogTemp: [Hero] ProcessCountCombo called Now=58.363310 Pending=1 Shots=0
+[2025.11.21-02.14.23:134][866]LogTemp: [Hero] ProcessCountCombo called Now=58.969006 Pending=1 Shots=0
+[2025.11.21-02.14.23:833][877]LogTemp: [Hero] ProcessCountCombo called Now=59.666695 Pending=1 Shots=0
+[2025.11.21-02.14.24:472][887]LogTemp: [Hero] ProcessCountCombo called Now=60.306076 Pending=1 Shots=0
+[2025.11.21-02.14.25:061][896]LogTemp: [Hero] ProcessCountCombo called Now=60.890222 Pending=1 Shots=0
+[2025.11.21-02.14.25:784][906]LogTemp: [Hero] ProcessCountCombo called Now=61.606973 Pending=1 Shots=0
+[2025.11.21-02.14.26:335][913]LogTemp: [Hero] ProcessCountCombo called Now=62.162250 Pending=1 Shots=0
+[2025.11.21-02.14.26:998][922]LogTemp: [Hero] ProcessCountCombo called Now=62.819119 Pending=1 Shots=0
+[2025.11.21-02.14.27:210][925]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.14.27:583][930]LogTemp: [Hero] ProcessCountCombo called Now=63.398874 Pending=1 Shots=0
+[2025.11.21-02.14.28:240][939]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.14.28:241][939]LogTemp: [Hero] ProcessCountCombo called Now=64.068735 Pending=1 Shots=0
+[2025.11.21-02.14.28:888][948]LogTemp: [Hero] ProcessCountCombo called Now=64.713452 Pending=1 Shots=0
+[2025.11.21-02.14.29:260][953]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.14.29:406][955]LogTemp: [Hero] ProcessCountCombo called Now=65.229652 Pending=1 Shots=0
+[2025.11.21-02.14.30:073][964]LogTemp: [Hero] ProcessCountCombo called Now=65.900608 Pending=1 Shots=0
+[2025.11.21-02.14.30:285][967]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.14.30:738][973]LogTemp: [Hero] ProcessCountCombo called Now=66.546014 Pending=1 Shots=0
+[2025.11.21-02.14.31:400][981]LogTemp: [Hero] ProcessCountCombo called Now=67.221273 Pending=1 Shots=0
+[2025.11.21-02.14.31:908][988]LogTemp: [Hero] ProcessCountCombo called Now=67.740168 Pending=1 Shots=0
+[2025.11.21-02.14.32:612][998]LogTemp: [Hero] ProcessCountCombo called Now=68.439080 Pending=1 Shots=0
+[2025.11.21-02.14.33:191][  6]LogTemp: [Hero] ProcessCountCombo called Now=69.017188 Pending=1 Shots=0
+[2025.11.21-02.14.33:817][ 14]LogTemp: [Hero] ProcessCountCombo called Now=69.645407 Pending=1 Shots=0
+[2025.11.21-02.14.34:443][ 23]LogTemp: [Hero] ProcessCountCombo called Now=70.272939 Pending=1 Shots=0
+[2025.11.21-02.14.35:046][ 32]LogTemp: [Hero] ProcessCountCombo called Now=70.875976 Pending=1 Shots=0
+[2025.11.21-02.14.35:673][ 41]LogTemp: [Hero] ProcessCountCombo called Now=71.506028 Pending=1 Shots=0
+[2025.11.21-02.14.36:273][ 50]LogTemp: [Hero] ProcessCountCombo called Now=72.100118 Pending=1 Shots=0
+[2025.11.21-02.14.36:960][ 60]LogTemp: [Hero] ProcessCountCombo called Now=72.795120 Pending=1 Shots=0
+[2025.11.21-02.14.37:537][ 69]LogTemp: [Hero] ProcessCountCombo called Now=73.373749 Pending=1 Shots=0
+[2025.11.21-02.14.38:214][ 79]LogTemp: [Hero] ProcessCountCombo called Now=74.043504 Pending=1 Shots=0
+[2025.11.21-02.14.38:768][ 87]LogTemp: [Hero] ProcessCountCombo called Now=74.592934 Pending=1 Shots=0
+[2025.11.21-02.14.39:423][ 96]LogTemp: [Hero] ProcessCountCombo called Now=75.252953 Pending=1 Shots=0
+[2025.11.21-02.14.40:073][105]LogTemp: [Hero] ProcessCountCombo called Now=75.896438 Pending=1 Shots=0
+[2025.11.21-02.14.40:727][113]LogTemp: [Hero] ProcessCountCombo called Now=76.545990 Pending=1 Shots=0
+[2025.11.21-02.14.41:377][121]LogTemp: [Hero] ProcessCountCombo called Now=77.186960 Pending=1 Shots=0
+[2025.11.21-02.14.42:005][129]LogTemp: [Hero] ProcessCountCombo called Now=77.830676 Pending=1 Shots=0
+[2025.11.21-02.14.42:699][138]LogTemp: [Hero] ProcessCountCombo called Now=78.517218 Pending=1 Shots=0
+[2025.11.21-02.14.43:283][145]LogTemp: [Hero] ProcessCountCombo called Now=79.098586 Pending=1 Shots=0
+[2025.11.21-02.14.43:906][152]LogTemp: [Hero] ProcessCountCombo called Now=79.720213 Pending=1 Shots=0
+[2025.11.21-02.14.44:513][160]LogTemp: [Hero] ProcessCountCombo called Now=80.339353 Pending=1 Shots=0
+[2025.11.21-02.14.45:080][167]LogTemp: [Hero] ProcessCountCombo called Now=80.901316 Pending=1 Shots=0
+[2025.11.21-02.14.45:703][175]LogTemp: [Hero] ProcessCountCombo called Now=81.521775 Pending=1 Shots=0
+[2025.11.21-02.14.46:013][179]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.14.46:347][183]LogTemp: [Hero] ProcessCountCombo called Now=82.149672 Pending=1 Shots=0
+[2025.11.21-02.14.46:977][191]LogTemp: [Hero] ProcessCountCombo called Now=82.794906 Pending=1 Shots=0
+[2025.11.21-02.14.47:524][199]LogTemp: [Hero] ProcessCountCombo called Now=83.356753 Pending=1 Shots=0
+[2025.11.21-02.14.48:166][209]LogTemp: [Hero] ProcessCountCombo called Now=84.003150 Pending=1 Shots=0
+[2025.11.21-02.14.48:806][219]LogTemp: [Hero] ProcessCountCombo called Now=84.637783 Pending=1 Shots=0
+[2025.11.21-02.14.49:467][229]LogTemp: [Hero] ProcessCountCombo called Now=85.299746 Pending=1 Shots=0
+[2025.11.21-02.14.50:075][237]LogTemp: [Hero] ProcessCountCombo called Now=85.904868 Pending=1 Shots=0
+[2025.11.21-02.14.50:746][246]LogTemp: [Hero] ProcessCountCombo called Now=86.563389 Pending=1 Shots=0
+[2025.11.21-02.14.51:342][254]LogTemp: [Hero] ProcessCountCombo called Now=87.168584 Pending=1 Shots=0
+[2025.11.21-02.14.51:909][262]LogTemp: [Hero] ProcessCountCombo called Now=87.739632 Pending=1 Shots=0
+[2025.11.21-02.14.52:623][271]LogTemp: [Hero] ProcessCountCombo called Now=88.438781 Pending=1 Shots=0
+[2025.11.21-02.14.53:210][279]LogTemp: [Hero] ProcessCountCombo called Now=89.043081 Pending=1 Shots=0
+[2025.11.21-02.14.53:488][283]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.14.53:763][287]LogTemp: [Hero] ProcessCountCombo called Now=89.590367 Pending=1 Shots=0
+[2025.11.21-02.14.54:103][292]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.14.54:390][296]LogTemp: [Hero] ProcessCountCombo called Now=90.219033 Pending=1 Shots=0
+[2025.11.21-02.14.54:524][298]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.14.55:035][306]LogTemp: [Hero] ProcessCountCombo called Now=90.870700 Pending=1 Shots=0
+[2025.11.21-02.14.55:168][308]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.14.55:168][308]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.14.55:672][316]LogTemp: [Hero] ProcessCountCombo called Now=91.509798 Pending=1 Shots=0
+[2025.11.21-02.14.56:328][326]LogTemp: [Hero] ProcessCountCombo called Now=92.162100 Pending=1 Shots=0
+[2025.11.21-02.14.56:848][334]LogTemp: [Hero] ProcessCountCombo called Now=92.683914 Pending=1 Shots=0
+[2025.11.21-02.14.57:615][345]LogTemp: [Hero] ProcessCountCombo called Now=93.443227 Pending=1 Shots=0
+[2025.11.21-02.14.58:150][353]LogTemp: [Hero] ProcessCountCombo called Now=93.985677 Pending=1 Shots=0
+[2025.11.21-02.14.58:822][363]LogTemp: [Hero] ProcessCountCombo called Now=94.647659 Pending=1 Shots=0
+[2025.11.21-02.14.59:391][371]LogTemp: [Hero] ProcessCountCombo called Now=95.219698 Pending=1 Shots=0
+[2025.11.21-02.15.00:123][381]LogTemp: [Hero] ProcessCountCombo called Now=95.946951 Pending=1 Shots=0
+[2025.11.21-02.15.00:693][388]LogTemp: [Hero] ProcessCountCombo called Now=96.521990 Pending=1 Shots=0
+[2025.11.21-02.15.01:215][395]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.15.01:349][397]LogTemp: [Hero] ProcessCountCombo called Now=97.179331 Pending=1 Shots=0
+[2025.11.21-02.15.01:561][400]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.15.01:913][405]LogTemp: [Hero] ProcessCountCombo called Now=97.736431 Pending=1 Shots=0
+[2025.11.21-02.15.02:614][415]LogTemp: [Hero] ProcessCountCombo called Now=98.443664 Pending=1 Shots=0
+[2025.11.21-02.15.03:197][423]LogTemp: [Hero] ProcessCountCombo called Now=99.024229 Pending=1 Shots=0
+[2025.11.21-02.15.03:795][431]LogTemp: [Hero] ProcessCountCombo called Now=99.621332 Pending=1 Shots=0
+[2025.11.21-02.15.04:468][440]LogTemp: [Hero] ProcessCountCombo called Now=100.293047 Pending=1 Shots=0
+[2025.11.21-02.15.05:104][449]LogTemp: [Hero] ProcessCountCombo called Now=100.934834 Pending=1 Shots=0
+[2025.11.21-02.15.05:547][456]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.15.05:688][458]LogTemp: [Hero] ProcessCountCombo called Now=101.517579 Pending=1 Shots=0
+[2025.11.21-02.15.06:358][467]LogTemp: [Hero] ProcessCountCombo called Now=102.175350 Pending=1 Shots=0
+[2025.11.21-02.15.06:997][475]LogTemp: [Hero] ProcessCountCombo called Now=102.816934 Pending=1 Shots=0
+[2025.11.21-02.15.07:659][483]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_6.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.15.07:659][483]LogTemp: [Hero] ProcessCountCombo called Now=103.477915 Pending=1 Shots=0
+[2025.11.21-02.15.08:275][490]LogTemp: [Hero] ProcessCountCombo called Now=104.081991 Pending=1 Shots=0
+[2025.11.21-02.15.08:969][498]LogTemp: [Hero] ProcessCountCombo called Now=104.778143 Pending=1 Shots=0
+[2025.11.21-02.15.09:491][504]LogTemp: [Hero] ProcessCountCombo called Now=105.308309 Pending=1 Shots=0
+[2025.11.21-02.15.10:050][511]LogTemp: [Hero] ProcessCountCombo called Now=105.871623 Pending=1 Shots=0
+[2025.11.21-02.15.10:686][519]LogTemp: [Hero] ProcessCountCombo called Now=106.503728 Pending=1 Shots=0
+[2025.11.21-02.15.11:426][528]LogTemp: [Hero] ProcessCountCombo called Now=107.227879 Pending=1 Shots=0
+[2025.11.21-02.15.11:973][535]LogTemp: [Hero] ProcessCountCombo called Now=107.797211 Pending=1 Shots=0
+[2025.11.21-02.15.12:614][543]LogTemp: [Hero] ProcessCountCombo called Now=108.432312 Pending=1 Shots=0
+[2025.11.21-02.15.13:241][551]LogTemp: [Hero] ProcessCountCombo called Now=109.066000 Pending=1 Shots=0
+[2025.11.21-02.15.13:485][554]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.15.13:872][559]LogTemp: [Hero] ProcessCountCombo called Now=109.691908 Pending=1 Shots=0
+[2025.11.21-02.15.14:405][566]LogTemp: [Hero] ProcessCountCombo called Now=110.226455 Pending=1 Shots=0
+[2025.11.21-02.15.15:154][575]LogTemp: [Hero] ProcessCountCombo called Now=110.965632 Pending=1 Shots=0
+[2025.11.21-02.15.15:690][581]LogTemp: [Hero] ProcessCountCombo called Now=111.497797 Pending=1 Shots=0
+[2025.11.21-02.15.16:341][589]LogTemp: [Hero] ProcessCountCombo called Now=112.160800 Pending=1 Shots=0
+[2025.11.21-02.15.17:024][597]LogTemp: [Hero] ProcessCountCombo called Now=112.844601 Pending=1 Shots=0
+[2025.11.21-02.15.17:654][604]LogTemp: [Hero] ProcessCountCombo called Now=113.449632 Pending=1 Shots=0
+[2025.11.21-02.15.18:148][609]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.15.18:210][609]LogTemp: [Hero] ProcessCountCombo called Now=114.005975 Pending=1 Shots=0
+[2025.11.21-02.15.18:885][616]LogTemp: [Hero] ProcessCountCombo called Now=114.676956 Pending=1 Shots=0
+[2025.11.21-02.15.19:493][622]LogTemp: [Hero] ProcessCountCombo called Now=115.283000 Pending=1 Shots=0
+[2025.11.21-02.15.20:126][629]LogTemp: [Hero] ProcessCountCombo called Now=115.936891 Pending=1 Shots=0
+[2025.11.21-02.15.20:743][636]LogTemp: [Hero] ProcessCountCombo called Now=116.560060 Pending=1 Shots=0
+[2025.11.21-02.15.21:444][644]LogTemp: [Hero] ProcessCountCombo called Now=117.262289 Pending=1 Shots=0
+[2025.11.21-02.15.21:530][645]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.15.22:024][651]LogTemp: [Hero] ProcessCountCombo called Now=117.837236 Pending=1 Shots=0
+[2025.11.21-02.15.22:699][658]LogTemp: [Hero] ProcessCountCombo called Now=118.486265 Pending=1 Shots=0
+[2025.11.21-02.15.23:184][663]LogTemp: [Hero] ProcessCountCombo called Now=119.001611 Pending=1 Shots=0
+[2025.11.21-02.15.23:883][671]LogTemp: [Hero] ProcessCountCombo called Now=119.689011 Pending=1 Shots=0
+[2025.11.21-02.15.24:488][678]LogTemp: [Hero] ProcessCountCombo called Now=120.304532 Pending=1 Shots=0
+[2025.11.21-02.15.24:663][680]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.15.25:095][685]LogTemp: [Hero] ProcessCountCombo called Now=120.915875 Pending=1 Shots=0
+[2025.11.21-02.15.25:676][692]LogTemp: [Hero] ProcessCountCombo called Now=121.510462 Pending=1 Shots=0
+[2025.11.21-02.15.26:290][701]LogTemp: [Hero] ProcessCountCombo called Now=122.119329 Pending=1 Shots=0
+[2025.11.21-02.15.26:961][711]LogTemp: [Hero] ProcessCountCombo called Now=122.798252 Pending=1 Shots=0
+[2025.11.21-02.15.27:532][720]LogTemp: [Hero] ProcessCountCombo called Now=123.368009 Pending=1 Shots=0
+[2025.11.21-02.15.28:218][731]LogTemp: [Hero] ProcessCountCombo called Now=124.053452 Pending=1 Shots=0
+[2025.11.21-02.15.28:783][740]LogTemp: [Hero] ProcessCountCombo called Now=124.619523 Pending=1 Shots=0
+[2025.11.21-02.15.29:417][750]LogTemp: [Hero] ProcessCountCombo called Now=125.251539 Pending=1 Shots=0
+[2025.11.21-02.15.30:003][759]LogTemp: [Hero] ProcessCountCombo called Now=125.839941 Pending=1 Shots=0
+[2025.11.21-02.15.30:628][769]LogTemp: [Hero] ProcessCountCombo called Now=126.464035 Pending=1 Shots=0
+[2025.11.21-02.15.31:264][779]LogTemp: [Hero] ProcessCountCombo called Now=127.100416 Pending=1 Shots=0
+[2025.11.21-02.15.31:941][790]LogTemp: [Hero] ProcessCountCombo called Now=127.777864 Pending=1 Shots=0
+[2025.11.21-02.15.32:517][799]LogTemp: [Hero] ProcessCountCombo called Now=128.353554 Pending=1 Shots=0
+[2025.11.21-02.15.33:225][810]LogTemp: [Hero] ProcessCountCombo called Now=129.061373 Pending=1 Shots=0
+[2025.11.21-02.15.33:861][820]LogTemp: [Hero] ProcessCountCombo called Now=129.697061 Pending=1 Shots=0
+[2025.11.21-02.15.34:448][829]LogTemp: [Hero] ProcessCountCombo called Now=130.282589 Pending=1 Shots=0
+[2025.11.21-02.15.34:999][837]LogTemp: [Hero] ProcessCountCombo called Now=130.834486 Pending=1 Shots=0
+[2025.11.21-02.15.35:702][848]LogTemp: [Hero] ProcessCountCombo called Now=131.534725 Pending=1 Shots=0
+[2025.11.21-02.15.36:330][858]LogTemp: [Hero] ProcessCountCombo called Now=132.166754 Pending=1 Shots=0
+[2025.11.21-02.15.36:955][868]LogTemp: [Hero] ProcessCountCombo called Now=132.791695 Pending=1 Shots=0
+[2025.11.21-02.15.37:608][878]LogTemp: [Hero] ProcessCountCombo called Now=133.443347 Pending=1 Shots=0
+[2025.11.21-02.15.38:178][886]LogTemp: [Hero] ProcessCountCombo called Now=134.009429 Pending=1 Shots=0
+[2025.11.21-02.15.38:833][895]LogTemp: [Hero] ProcessCountCombo called Now=134.660790 Pending=1 Shots=0
+[2025.11.21-02.15.39:409][903]LogTemp: [Hero] ProcessCountCombo called Now=135.243396 Pending=1 Shots=0
+[2025.11.21-02.15.40:094][913]LogTemp: [Hero] ProcessCountCombo called Now=135.925421 Pending=1 Shots=0
+[2025.11.21-02.15.40:714][922]LogTemp: [Hero] ProcessCountCombo called Now=136.542759 Pending=1 Shots=0
+[2025.11.21-02.15.40:998][926]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.15.41:194][929]LogTemp: [Hero] ProcessCountCombo called Now=137.025531 Pending=1 Shots=0
+[2025.11.21-02.15.41:931][940]LogTemp: [Hero] ProcessCountCombo called Now=137.755982 Pending=1 Shots=0
+[2025.11.21-02.15.42:056][942]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.15.42:585][950]LogTemp: [Hero] ProcessCountCombo called Now=138.410380 Pending=1 Shots=1
+[2025.11.21-02.15.42:790][953]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.15.43:118][958]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.15.43:181][959]LogTemp: [Hero] ProcessCountCombo called Now=139.017266 Pending=1 Shots=2
+[2025.11.21-02.15.43:829][969]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.15.43:831][969]LogTemp: [Hero] ProcessCountCombo called Now=139.664118 Pending=1 Shots=2
+[2025.11.21-02.15.44:533][980]LogTemp: [Hero] ProcessCountCombo called Now=140.364568 Pending=1 Shots=0
+[2025.11.21-02.15.45:123][989]LogTemp: [Hero] ProcessCountCombo called Now=140.953102 Pending=1 Shots=0
+[2025.11.21-02.15.45:724][998]LogTemp: [Hero] ProcessCountCombo called Now=141.553368 Pending=1 Shots=0
+[2025.11.21-02.15.46:379][  7]LogTemp: [Hero] ProcessCountCombo called Now=142.204860 Pending=1 Shots=3
+[2025.11.21-02.15.47:027][ 16]LogTemp: [Hero] ProcessCountCombo called Now=142.851323 Pending=1 Shots=3
+[2025.11.21-02.15.47:676][ 25]LogTemp: [Hero] ProcessCountCombo called Now=143.506798 Pending=1 Shots=3
+[2025.11.21-02.15.48:377][ 34]LogTemp: [Hero] ProcessCountCombo called Now=144.194626 Pending=1 Shots=4
+[2025.11.21-02.15.48:908][ 41]LogTemp: [Hero] ProcessCountCombo called Now=144.728490 Pending=1 Shots=3
+[2025.11.21-02.15.49:506][ 49]LogTemp: [Hero] ProcessCountCombo called Now=145.327108 Pending=1 Shots=4
+[2025.11.21-02.15.50:131][ 58]LogTemp: [Hero] ProcessCountCombo called Now=145.964005 Pending=1 Shots=3
+[2025.11.21-02.15.50:702][ 66]LogTemp: [Hero] ProcessCountCombo called Now=146.531456 Pending=1 Shots=3
+[2025.11.21-02.15.51:329][ 75]LogTemp: [Hero] ProcessCountCombo called Now=147.163575 Pending=1 Shots=3
+[2025.11.21-02.15.51:874][ 83]LogTemp: [Hero] ProcessCountCombo called Now=147.704548 Pending=1 Shots=2
+[2025.11.21-02.15.52:462][ 92]LogTemp: [Hero] ProcessCountCombo called Now=148.293999 Pending=1 Shots=3
+[2025.11.21-02.15.53:195][104]LogTemp: [Hero] ProcessCountCombo called Now=149.031876 Pending=1 Shots=2
+[2025.11.21-02.15.53:840][114]LogTemp: [Hero] ProcessCountCombo called Now=149.676595 Pending=1 Shots=0
+[2025.11.21-02.15.54:463][124]LogTemp: [Hero] ProcessCountCombo called Now=150.295300 Pending=1 Shots=0
+[2025.11.21-02.15.55:052][133]LogTemp: [Hero] ProcessCountCombo called Now=150.882060 Pending=1 Shots=0
+[2025.11.21-02.15.55:415][138]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_7.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.15.55:711][142]LogTemp: [Hero] ProcessCountCombo called Now=151.536536 Pending=1 Shots=0
+[2025.11.21-02.15.56:287][150]LogTemp: [Hero] ProcessCountCombo called Now=152.115540 Pending=1 Shots=0
+[2025.11.21-02.15.56:930][159]LogTemp: [Hero] ProcessCountCombo called Now=152.756247 Pending=1 Shots=0
+[2025.11.21-02.15.57:571][168]LogTemp: [Hero] ProcessCountCombo called Now=153.398805 Pending=1 Shots=0
+[2025.11.21-02.15.58:154][176]LogTemp: [Hero] ProcessCountCombo called Now=153.985442 Pending=1 Shots=0
+[2025.11.21-02.15.58:221][177]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_8.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.15.58:808][185]LogTemp: [Hero] ProcessCountCombo called Now=154.632805 Pending=1 Shots=0
+[2025.11.21-02.15.58:945][187]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.15.59:425][194]LogTemp: [Hero] ProcessCountCombo called Now=155.257407 Pending=1 Shots=1
+[2025.11.21-02.16.00:042][203]LogTemp: [Hero] ProcessCountCombo called Now=155.871687 Pending=1 Shots=1
+[2025.11.21-02.16.00:730][213]LogTemp: [Hero] ProcessCountCombo called Now=156.563159 Pending=1 Shots=0
+[2025.11.21-02.16.01:346][222]LogTemp: [Hero] ProcessCountCombo called Now=157.173155 Pending=1 Shots=0
+[2025.11.21-02.16.01:953][231]LogTemp: [Hero] ProcessCountCombo called Now=157.788941 Pending=1 Shots=0
+[2025.11.21-02.16.02:686][241]LogTemp: [Hero] ProcessCountCombo called Now=158.506175 Pending=1 Shots=0
+[2025.11.21-02.16.03:216][248]LogTemp: [Hero] ProcessCountCombo called Now=159.039484 Pending=1 Shots=0
+[2025.11.21-02.16.03:793][256]LogTemp: [Hero] ProcessCountCombo called Now=159.611421 Pending=1 Shots=0
+[2025.11.21-02.16.04:242][262]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.16.04:463][265]LogTemp: [Hero] ProcessCountCombo called Now=160.291272 Pending=1 Shots=0
+[2025.11.21-02.16.04:841][270]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.16.05:056][273]LogTemp: [Hero] ProcessCountCombo called Now=160.883499 Pending=1 Shots=0
+[2025.11.21-02.16.05:719][282]LogTemp: [Hero] ProcessCountCombo called Now=161.538464 Pending=1 Shots=0
+[2025.11.21-02.16.05:874][284]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.16.06:249][289]LogTemp: [Hero] ProcessCountCombo called Now=162.075417 Pending=1 Shots=0
+[2025.11.21-02.16.06:321][290]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.16.06:924][298]LogTemp: [Hero] ProcessCountCombo called Now=162.743686 Pending=1 Shots=0
+[2025.11.21-02.16.07:548][307]LogTemp: [Hero] ProcessCountCombo called Now=163.386092 Pending=1 Shots=0
+[2025.11.21-02.16.08:160][316]LogTemp: [Hero] ProcessCountCombo called Now=163.989170 Pending=1 Shots=0
+[2025.11.21-02.16.08:726][325]LogTemp: [Hero] ProcessCountCombo called Now=164.564411 Pending=1 Shots=0
+[2025.11.21-02.16.09:399][336]LogTemp: [Hero] ProcessCountCombo called Now=165.236324 Pending=1 Shots=0
+[2025.11.21-02.16.10:037][347]LogTemp: [Hero] ProcessCountCombo called Now=165.879435 Pending=1 Shots=0
+[2025.11.21-02.16.10:756][359]LogTemp: [Hero] ProcessCountCombo called Now=166.594856 Pending=1 Shots=0
+[2025.11.21-02.16.11:362][369]LogTemp: [Hero] ProcessCountCombo called Now=167.200855 Pending=1 Shots=0
+[2025.11.21-02.16.11:965][378]LogTemp: [Hero] ProcessCountCombo called Now=167.793536 Pending=1 Shots=0
+[2025.11.21-02.16.12:603][387]LogTemp: [Hero] ProcessCountCombo called Now=168.431818 Pending=1 Shots=0
+[2025.11.21-02.16.13:269][396]LogTemp: [Hero] ProcessCountCombo called Now=169.096964 Pending=1 Shots=0
+[2025.11.21-02.16.13:760][403]LogTemp: [Hero] ProcessCountCombo called Now=169.585062 Pending=1 Shots=0
+[2025.11.21-02.16.13:905][405]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.16.13:906][405]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_9.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.16.14:399][412]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.16.14:468][413]LogTemp: [Hero] ProcessCountCombo called Now=170.299810 Pending=1 Shots=0
+[2025.11.21-02.16.14:941][420]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.16.15:076][422]LogTemp: [Hero] ProcessCountCombo called Now=170.907739 Pending=1 Shots=0
+[2025.11.21-02.16.15:417][427]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.16.15:690][431]LogTemp: [Hero] ProcessCountCombo called Now=171.521595 Pending=1 Shots=0
+[2025.11.21-02.16.15:973][435]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.16.16:314][440]LogTemp: [Hero] ProcessCountCombo called Now=172.144003 Pending=1 Shots=0
+[2025.11.21-02.16.16:914][449]LogTemp: [Hero] ProcessCountCombo called Now=172.743514 Pending=1 Shots=0
+[2025.11.21-02.16.17:551][459]LogTemp: [Hero] ProcessCountCombo called Now=173.385158 Pending=1 Shots=0
+[2025.11.21-02.16.18:233][470]LogTemp: [Hero] ProcessCountCombo called Now=174.070932 Pending=1 Shots=0
+[2025.11.21-02.16.18:843][480]LogTemp: [Hero] ProcessCountCombo called Now=174.679392 Pending=1 Shots=0
+[2025.11.21-02.16.19:455][490]LogTemp: [Hero] ProcessCountCombo called Now=175.293265 Pending=1 Shots=0
+[2025.11.21-02.16.20:031][499]LogTemp: [Hero] ProcessCountCombo called Now=175.862314 Pending=1 Shots=0
+[2025.11.21-02.16.20:668][508]LogTemp: [Hero] ProcessCountCombo called Now=176.495375 Pending=1 Shots=0
+[2025.11.21-02.16.21:289][517]LogTemp: [Hero] ProcessCountCombo called Now=177.124745 Pending=1 Shots=0
+[2025.11.21-02.16.21:836][525]LogTemp: [Hero] ProcessCountCombo called Now=177.660781 Pending=1 Shots=0
+[2025.11.21-02.16.22:607][536]LogTemp: [Hero] ProcessCountCombo called Now=178.436827 Pending=1 Shots=0
+[2025.11.21-02.16.23:225][545]LogTemp: [Hero] ProcessCountCombo called Now=179.062677 Pending=1 Shots=0
+[2025.11.21-02.16.23:911][556]LogTemp: [Hero] ProcessCountCombo called Now=179.744774 Pending=1 Shots=0
+[2025.11.21-02.16.23:970][557]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.16.24:526][566]LogTemp: [Hero] ProcessCountCombo called Now=180.362526 Pending=1 Shots=0
+[2025.11.21-02.16.24:888][572]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.16.25:008][574]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.16.25:068][575]LogTemp: [Hero] ProcessCountCombo called Now=180.908055 Pending=1 Shots=0
+[2025.11.21-02.16.25:631][584]LogTemp: [Hero] ProcessCountCombo called Now=181.470057 Pending=1 Shots=0
+[2025.11.21-02.16.25:928][589]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.16.26:049][591]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.16.26:290][595]LogTemp: [Hero] ProcessCountCombo called Now=182.130388 Pending=1 Shots=0
+[2025.11.21-02.16.27:009][607]LogTemp: [Hero] ProcessCountCombo called Now=182.848027 Pending=1 Shots=0
+[2025.11.21-02.16.27:634][617]LogTemp: [Hero] ProcessCountCombo called Now=183.467938 Pending=1 Shots=0
+[2025.11.21-02.16.28:245][626]LogTemp: [Hero] ProcessCountCombo called Now=184.075196 Pending=1 Shots=0
+[2025.11.21-02.16.28:831][634]LogTemp: [Hero] ProcessCountCombo called Now=184.657911 Pending=1 Shots=0
+[2025.11.21-02.16.29:446][643]LogTemp: [Hero] ProcessCountCombo called Now=185.284170 Pending=1 Shots=0
+[2025.11.21-02.16.30:095][653]LogTemp: [Hero] ProcessCountCombo called Now=185.930255 Pending=1 Shots=0
+[2025.11.21-02.16.30:705][662]LogTemp: [Hero] ProcessCountCombo called Now=186.534297 Pending=1 Shots=0
+[2025.11.21-02.16.31:387][673]LogTemp: [Hero] ProcessCountCombo called Now=187.226316 Pending=1 Shots=0
+[2025.11.21-02.16.31:566][676]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.16.31:990][683]LogTemp: [Hero] ProcessCountCombo called Now=187.825015 Pending=1 Shots=0
+[2025.11.21-02.16.32:293][688]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.16.32:597][693]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.16.32:598][693]LogTemp: [Hero] ProcessCountCombo called Now=188.435887 Pending=1 Shots=0
+[2025.11.21-02.16.33:248][704]LogTemp: [Hero] ProcessCountCombo called Now=189.082413 Pending=1 Shots=0
+[2025.11.21-02.16.33:633][710]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.16.33:841][713]LogTemp: [Hero] ProcessCountCombo called Now=189.671034 Pending=1 Shots=0
+[2025.11.21-02.16.34:515][723]LogTemp: [Hero] ProcessCountCombo called Now=190.346560 Pending=1 Shots=0
+[2025.11.21-02.16.35:086][732]LogTemp: [Hero] ProcessCountCombo called Now=190.925589 Pending=1 Shots=0
+[2025.11.21-02.16.35:143][733]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.16.35:756][743]LogTemp: [Hero] ProcessCountCombo called Now=191.595428 Pending=1 Shots=0
+[2025.11.21-02.16.36:323][751]LogTemp: [Hero] ProcessCountCombo called Now=192.150666 Pending=1 Shots=0
+[2025.11.21-02.16.36:986][759]LogTemp: [Hero] ProcessCountCombo called Now=192.813373 Pending=1 Shots=0
+[2025.11.21-02.16.37:543][767]LogTemp: [Hero] ProcessCountCombo called Now=193.374558 Pending=1 Shots=0
+[2025.11.21-02.16.38:227][777]LogTemp: [Hero] ProcessCountCombo called Now=194.055647 Pending=1 Shots=0
+[2025.11.21-02.16.38:858][786]LogTemp: [Hero] ProcessCountCombo called Now=194.684653 Pending=1 Shots=0
+[2025.11.21-02.16.39:513][795]LogTemp: [Hero] ProcessCountCombo called Now=195.341656 Pending=1 Shots=0
+[2025.11.21-02.16.40:107][803]LogTemp: [Hero] ProcessCountCombo called Now=195.927952 Pending=1 Shots=0
+[2025.11.21-02.16.40:706][811]LogTemp: [Hero] ProcessCountCombo called Now=196.528227 Pending=1 Shots=0
+[2025.11.21-02.16.41:385][820]LogTemp: [Hero] ProcessCountCombo called Now=197.205707 Pending=1 Shots=0
+[2025.11.21-02.16.41:980][828]LogTemp: [Hero] ProcessCountCombo called Now=197.809504 Pending=1 Shots=0
+[2025.11.21-02.16.42:627][837]LogTemp: [Hero] ProcessCountCombo called Now=198.451070 Pending=1 Shots=0
+[2025.11.21-02.16.43:197][844]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_10.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.16.43:353][846]LogTemp: [Hero] ProcessCountCombo called Now=199.175036 Pending=1 Shots=0
+[2025.11.21-02.16.43:963][854]LogTemp: [Hero] ProcessCountCombo called Now=199.784967 Pending=1 Shots=0
+[2025.11.21-02.16.44:559][862]LogTemp: [Hero] ProcessCountCombo called Now=200.389474 Pending=1 Shots=0
+[2025.11.21-02.16.44:910][867]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.16.45:948][881]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.16.46:025][882]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.16.46:947][894]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.16.47:992][909]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.16.58:097][ 57]LogTemp: [Hero] ProcessCountCombo called Now=213.935931 Pending=1 Shots=24
+[2025.11.21-02.16.58:736][ 67]LogTemp: [Hero] ProcessCountCombo called Now=214.569909 Pending=1 Shots=3
+[2025.11.21-02.16.59:301][ 76]LogTemp: [Hero] ProcessCountCombo called Now=215.138701 Pending=1 Shots=3
+[2025.11.21-02.16.59:909][ 86]LogTemp: [Hero] ProcessCountCombo called Now=215.748038 Pending=1 Shots=3
+[2025.11.21-02.17.00:538][ 96]LogTemp: [Hero] ProcessCountCombo called Now=216.374786 Pending=1 Shots=3
+[2025.11.21-02.17.01:194][107]LogTemp: [Hero] ProcessCountCombo called Now=217.033491 Pending=1 Shots=3
+[2025.11.21-02.17.01:862][117]LogTemp: [Hero] ProcessCountCombo called Now=217.696189 Pending=1 Shots=3
+[2025.11.21-02.17.02:490][126]LogTemp: [Hero] ProcessCountCombo called Now=218.315521 Pending=1 Shots=3
+[2025.11.21-02.17.03:051][134]LogTemp: [Hero] ProcessCountCombo called Now=218.890507 Pending=1 Shots=3
+[2025.11.21-02.17.03:718][144]LogTemp: [Hero] ProcessCountCombo called Now=219.557401 Pending=1 Shots=3
+[2025.11.21-02.17.03:785][145]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_11.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.17.04:298][153]LogTemp: [Hero] ProcessCountCombo called Now=220.136042 Pending=1 Shots=3
+[2025.11.21-02.17.04:958][163]LogTemp: [Hero] ProcessCountCombo called Now=220.778751 Pending=1 Shots=3
+[2025.11.21-02.17.05:540][172]LogTemp: [Hero] ProcessCountCombo called Now=221.376615 Pending=1 Shots=3
+[2025.11.21-02.17.06:217][183]LogTemp: [Hero] ProcessCountCombo called Now=222.063720 Pending=1 Shots=3
+[2025.11.21-02.17.06:836][193]LogTemp: [Hero] ProcessCountCombo called Now=222.681432 Pending=1 Shots=3
+[2025.11.21-02.17.07:451][203]LogTemp: [Hero] ProcessCountCombo called Now=223.293997 Pending=1 Shots=3
+[2025.11.21-02.17.08:083][214]LogTemp: [Hero] ProcessCountCombo called Now=223.917677 Pending=1 Shots=3
+[2025.11.21-02.17.08:678][224]LogTemp: [Hero] ProcessCountCombo called Now=224.519707 Pending=1 Shots=3
+[2025.11.21-02.17.09:315][234]LogTemp: [Hero] ProcessCountCombo called Now=225.144586 Pending=1 Shots=3
+[2025.11.21-02.17.09:931][243]LogTemp: [Hero] ProcessCountCombo called Now=225.762858 Pending=1 Shots=2
+[2025.11.21-02.17.10:555][252]LogTemp: [Hero] ProcessCountCombo called Now=226.388668 Pending=1 Shots=3
+[2025.11.21-02.17.11:242][263]LogTemp: [Hero] ProcessCountCombo called Now=227.081380 Pending=1 Shots=3
+[2025.11.21-02.17.11:797][272]LogTemp: [Hero] ProcessCountCombo called Now=227.634031 Pending=1 Shots=2
+[2025.11.21-02.17.12:433][282]LogTemp: [Hero] ProcessCountCombo called Now=228.267576 Pending=1 Shots=3
+[2025.11.21-02.17.13:026][291]LogTemp: [Hero] ProcessCountCombo called Now=228.862082 Pending=1 Shots=2
+[2025.11.21-02.17.13:700][301]LogTemp: [Hero] ProcessCountCombo called Now=229.531235 Pending=1 Shots=3
+[2025.11.21-02.17.14:336][310]LogTemp: [Hero] ProcessCountCombo called Now=230.167022 Pending=1 Shots=3
+[2025.11.21-02.17.14:943][319]LogTemp: [Hero] ProcessCountCombo called Now=230.777903 Pending=1 Shots=2
+[2025.11.21-02.17.15:281][324]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_12.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.17.15:544][328]LogTemp: [Hero] ProcessCountCombo called Now=231.370466 Pending=1 Shots=3
+[2025.11.21-02.17.16:216][338]LogTemp: [Hero] ProcessCountCombo called Now=232.049757 Pending=1 Shots=3
+[2025.11.21-02.17.16:780][346]LogTemp: [Hero] ProcessCountCombo called Now=232.604809 Pending=1 Shots=3
+[2025.11.21-02.17.17:485][356]LogTemp: [Hero] ProcessCountCombo called Now=233.314921 Pending=1 Shots=3
+[2025.11.21-02.17.18:051][364]LogTemp: [Hero] ProcessCountCombo called Now=233.872928 Pending=1 Shots=3
+[2025.11.21-02.17.18:703][374]LogTemp: [Hero] ProcessCountCombo called Now=234.540419 Pending=1 Shots=3
+[2025.11.21-02.17.19:300][383]LogTemp: [Hero] ProcessCountCombo called Now=235.135361 Pending=1 Shots=3
+[2025.11.21-02.17.19:879][392]LogTemp: [Hero] ProcessCountCombo called Now=235.717400 Pending=1 Shots=2
+[2025.11.21-02.17.20:563][402]LogTemp: [Hero] ProcessCountCombo called Now=236.397371 Pending=1 Shots=3
+[2025.11.21-02.17.21:212][411]LogTemp: [Hero] ProcessCountCombo called Now=237.036516 Pending=1 Shots=3
+[2025.11.21-02.17.21:793][419]LogTemp: [Hero] ProcessCountCombo called Now=237.621964 Pending=1 Shots=3
+[2025.11.21-02.17.22:441][428]LogTemp: [Hero] ProcessCountCombo called Now=238.271553 Pending=1 Shots=2
+[2025.11.21-02.17.23:098][437]LogTemp: [Hero] ProcessCountCombo called Now=238.923084 Pending=1 Shots=2
+[2025.11.21-02.17.23:653][445]LogTemp: [Hero] ProcessCountCombo called Now=239.494273 Pending=1 Shots=2
+[2025.11.21-02.17.24:276][454]LogTemp: [Hero] ProcessCountCombo called Now=240.123021 Pending=1 Shots=2
+[2025.11.21-02.17.24:926][463]LogTemp: [Hero] ProcessCountCombo called Now=240.770906 Pending=1 Shots=2
+[2025.11.21-02.17.25:559][472]LogTemp: [Hero] ProcessCountCombo called Now=241.404645 Pending=1 Shots=1
+[2025.11.21-02.17.26:179][481]LogTemp: [Hero] ProcessCountCombo called Now=242.015163 Pending=1 Shots=1
+[2025.11.21-02.17.26:802][490]LogTemp: [Hero] ProcessCountCombo called Now=242.648001 Pending=1 Shots=2
+[2025.11.21-02.17.27:487][500]LogTemp: [Hero] ProcessCountCombo called Now=243.323735 Pending=1 Shots=2
+[2025.11.21-02.17.28:036][508]LogTemp: [Hero] ProcessCountCombo called Now=243.876878 Pending=1 Shots=2
+[2025.11.21-02.17.28:649][517]LogTemp: [Hero] ProcessCountCombo called Now=244.493613 Pending=1 Shots=0
+[2025.11.21-02.17.29:284][526]LogTemp: [Hero] ProcessCountCombo called Now=245.127780 Pending=1 Shots=2
+[2025.11.21-02.17.29:971][536]LogTemp: [Hero] ProcessCountCombo called Now=245.811306 Pending=1 Shots=2
+[2025.11.21-02.17.30:545][544]LogTemp: [Hero] ProcessCountCombo called Now=246.381066 Pending=1 Shots=2
+[2025.11.21-02.17.31:186][553]LogTemp: [Hero] ProcessCountCombo called Now=247.027658 Pending=1 Shots=3
+[2025.11.21-02.17.31:813][562]LogTemp: [Hero] ProcessCountCombo called Now=247.656067 Pending=1 Shots=1
+[2025.11.21-02.17.32:422][571]LogTemp: [Hero] ProcessCountCombo called Now=248.264493 Pending=1 Shots=0
+[2025.11.21-02.17.33:058][580]LogTemp: [Hero] ProcessCountCombo called Now=248.902667 Pending=1 Shots=0
+[2025.11.21-02.17.33:675][589]LogTemp: [Hero] ProcessCountCombo called Now=249.527372 Pending=1 Shots=0
+[2025.11.21-02.17.34:302][598]LogTemp: [Hero] ProcessCountCombo called Now=250.152899 Pending=1 Shots=0
+[2025.11.21-02.17.34:979][608]LogTemp: [Hero] ProcessCountCombo called Now=250.829563 Pending=1 Shots=0
+[2025.11.21-02.17.35:541][616]LogTemp: [Hero] ProcessCountCombo called Now=251.390962 Pending=1 Shots=0
+[2025.11.21-02.17.36:167][625]LogTemp: [Hero] ProcessCountCombo called Now=252.014659 Pending=1 Shots=0
+[2025.11.21-02.17.36:845][635]LogTemp: [Hero] ProcessCountCombo called Now=252.693490 Pending=1 Shots=0
+[2025.11.21-02.17.37:399][643]LogTemp: [Hero] ProcessCountCombo called Now=253.247650 Pending=1 Shots=0
+[2025.11.21-02.17.38:026][652]LogTemp: [Hero] ProcessCountCombo called Now=253.874773 Pending=1 Shots=0
+[2025.11.21-02.17.38:719][662]LogTemp: [Hero] ProcessCountCombo called Now=254.566320 Pending=1 Shots=0
+[2025.11.21-02.17.39:270][670]LogTemp: [Hero] ProcessCountCombo called Now=255.118812 Pending=1 Shots=0
+[2025.11.21-02.17.39:948][680]LogTemp: [Hero] ProcessCountCombo called Now=255.798194 Pending=1 Shots=0
+[2025.11.21-02.17.40:507][688]LogTemp: [Hero] ProcessCountCombo called Now=256.355799 Pending=1 Shots=0
+[2025.11.21-02.17.41:146][697]LogTemp: [Hero] ProcessCountCombo called Now=256.991433 Pending=1 Shots=1
+[2025.11.21-02.17.41:769][706]LogTemp: [Hero] ProcessCountCombo called Now=257.615545 Pending=1 Shots=2
+[2025.11.21-02.17.42:394][715]LogTemp: [Hero] ProcessCountCombo called Now=258.235668 Pending=1 Shots=2
+[2025.11.21-02.17.43:017][724]LogTemp: [Hero] ProcessCountCombo called Now=258.858786 Pending=1 Shots=1
+[2025.11.21-02.17.43:645][733]LogTemp: [Hero] ProcessCountCombo called Now=259.491953 Pending=1 Shots=0
+[2025.11.21-02.17.44:280][742]LogTemp: [Hero] ProcessCountCombo called Now=260.123928 Pending=1 Shots=1
+[2025.11.21-02.17.44:909][751]LogTemp: [Hero] ProcessCountCombo called Now=260.749170 Pending=1 Shots=1
+[2025.11.21-02.17.45:531][760]LogTemp: [Hero] ProcessCountCombo called Now=261.379832 Pending=1 Shots=1
+[2025.11.21-02.17.46:154][769]LogTemp: [Hero] ProcessCountCombo called Now=262.003867 Pending=1 Shots=1
+[2025.11.21-02.17.46:781][778]LogTemp: [Hero] ProcessCountCombo called Now=262.631324 Pending=1 Shots=1
+[2025.11.21-02.17.47:425][787]LogTemp: [Hero] ProcessCountCombo called Now=263.266983 Pending=1 Shots=2
+[2025.11.21-02.17.48:069][796]LogTemp: [Hero] ProcessCountCombo called Now=263.918605 Pending=1 Shots=1
+[2025.11.21-02.17.48:704][805]LogTemp: [Hero] ProcessCountCombo called Now=264.547614 Pending=1 Shots=1
+[2025.11.21-02.17.49:267][813]LogTemp: [Hero] ProcessCountCombo called Now=265.112171 Pending=1 Shots=1
+[2025.11.21-02.17.49:906][822]LogTemp: [Hero] ProcessCountCombo called Now=265.754628 Pending=1 Shots=1
+[2025.11.21-02.17.50:611][832]LogTemp: [Hero] ProcessCountCombo called Now=266.458218 Pending=1 Shots=2
+[2025.11.21-02.17.51:168][840]LogTemp: [Hero] ProcessCountCombo called Now=267.012468 Pending=1 Shots=1
+[2025.11.21-02.17.51:784][849]LogTemp: [Hero] ProcessCountCombo called Now=267.631472 Pending=1 Shots=0
+[2025.11.21-02.17.52:393][858]LogTemp: [Hero] ProcessCountCombo called Now=268.244193 Pending=1 Shots=0
+[2025.11.21-02.17.53:063][868]LogTemp: [Hero] ProcessCountCombo called Now=268.914728 Pending=1 Shots=0
+[2025.11.21-02.17.53:671][877]LogTemp: [Hero] ProcessCountCombo called Now=269.518678 Pending=1 Shots=0
+[2025.11.21-02.17.54:278][886]LogTemp: [Hero] ProcessCountCombo called Now=270.128913 Pending=1 Shots=0
+[2025.11.21-02.17.54:889][895]LogTemp: [Hero] ProcessCountCombo called Now=270.734756 Pending=1 Shots=2
+[2025.11.21-02.17.55:565][905]LogTemp: [Hero] ProcessCountCombo called Now=271.409492 Pending=1 Shots=3
+[2025.11.21-02.17.56:165][914]LogTemp: [Hero] ProcessCountCombo called Now=272.014760 Pending=1 Shots=2
+[2025.11.21-02.17.56:766][923]LogTemp: [Hero] ProcessCountCombo called Now=272.617239 Pending=1 Shots=0
+[2025.11.21-02.17.57:440][933]LogTemp: [Hero] ProcessCountCombo called Now=273.290870 Pending=1 Shots=0
+[2025.11.21-02.17.58:043][942]LogTemp: [Hero] ProcessCountCombo called Now=273.894489 Pending=1 Shots=0
+[2025.11.21-02.17.58:717][952]LogTemp: [Hero] ProcessCountCombo called Now=274.564456 Pending=1 Shots=0
+[2025.11.21-02.17.59:258][960]LogTemp: [Hero] ProcessCountCombo called Now=275.109410 Pending=1 Shots=0
+[2025.11.21-02.17.59:928][970]LogTemp: [Hero] ProcessCountCombo called Now=275.780023 Pending=1 Shots=0
+[2025.11.21-02.18.00:543][979]LogTemp: [Hero] ProcessCountCombo called Now=276.391156 Pending=1 Shots=1
+[2025.11.21-02.18.01:162][988]LogTemp: [Hero] ProcessCountCombo called Now=277.002522 Pending=1 Shots=2
+[2025.11.21-02.18.01:791][997]LogTemp: [Hero] ProcessCountCombo called Now=277.627041 Pending=1 Shots=3
+[2025.11.21-02.18.02:422][  6]LogTemp: [Hero] ProcessCountCombo called Now=278.253093 Pending=1 Shots=2
+[2025.11.21-02.18.03:083][ 16]LogTemp: [Hero] ProcessCountCombo called Now=278.922037 Pending=1 Shots=1
+[2025.11.21-02.18.03:626][ 24]LogTemp: [Hero] ProcessCountCombo called Now=279.463477 Pending=1 Shots=2
+[2025.11.21-02.18.04:313][ 34]LogTemp: [Hero] ProcessCountCombo called Now=280.154628 Pending=1 Shots=3
+[2025.11.21-02.18.04:951][ 43]LogTemp: [Hero] ProcessCountCombo called Now=280.766186 Pending=1 Shots=2
+[2025.11.21-02.18.05:556][ 51]LogTemp: [Hero] ProcessCountCombo called Now=281.378493 Pending=1 Shots=2
+[2025.11.21-02.18.06:171][ 60]LogTemp: [Hero] ProcessCountCombo called Now=282.002568 Pending=1 Shots=2
+[2025.11.21-02.18.06:761][ 69]LogTemp: [Hero] ProcessCountCombo called Now=282.592485 Pending=1 Shots=2
+[2025.11.21-02.18.07:442][ 79]LogTemp: [Hero] ProcessCountCombo called Now=283.277770 Pending=1 Shots=3
+[2025.11.21-02.18.08:051][ 88]LogTemp: [Hero] ProcessCountCombo called Now=283.887463 Pending=1 Shots=1
+[2025.11.21-02.18.08:655][ 97]LogTemp: [Hero] ProcessCountCombo called Now=284.495255 Pending=1 Shots=2
+[2025.11.21-02.18.09:376][107]LogTemp: [Hero] ProcessCountCombo called Now=285.198106 Pending=1 Shots=3
+[2025.11.21-02.18.09:875][115]LogTemp: [Hero] ProcessCountCombo called Now=285.720148 Pending=1 Shots=1
+[2025.11.21-02.18.10:517][124]LogTemp: [Hero] ProcessCountCombo called Now=286.363177 Pending=1 Shots=2
+[2025.11.21-02.18.11:112][132]LogTemp: [Hero] ProcessCountCombo called Now=286.956316 Pending=1 Shots=2
+[2025.11.21-02.18.11:741][141]LogTemp: [Hero] ProcessCountCombo called Now=287.578096 Pending=1 Shots=3
+[2025.11.21-02.18.12:430][151]LogTemp: [Hero] ProcessCountCombo called Now=288.262102 Pending=1 Shots=2
+[2025.11.21-02.18.13:052][160]LogTemp: [Hero] ProcessCountCombo called Now=288.891769 Pending=1 Shots=0
+[2025.11.21-02.18.13:690][168]LogTemp: [Hero] ProcessCountCombo called Now=289.522084 Pending=1 Shots=0
+[2025.11.21-02.18.14:307][177]LogTemp: [Hero] ProcessCountCombo called Now=290.132740 Pending=1 Shots=0
+[2025.11.21-02.18.14:941][187]LogTemp: [Hero] ProcessCountCombo called Now=290.784327 Pending=1 Shots=0
+[2025.11.21-02.18.15:574][197]LogTemp: [Hero] ProcessCountCombo called Now=291.415100 Pending=1 Shots=0
+[2025.11.21-02.18.16:261][208]LogTemp: [Hero] ProcessCountCombo called Now=292.109755 Pending=1 Shots=0
+[2025.11.21-02.18.16:714][215]LogTemp: [Hero] ProcessCountCombo called Now=292.558685 Pending=1 Shots=0
+[2025.11.21-02.18.17:375][225]LogTemp: [Hero] ProcessCountCombo called Now=293.221359 Pending=1 Shots=0
+[2025.11.21-02.18.18:007][235]LogTemp: [Hero] ProcessCountCombo called Now=293.857303 Pending=1 Shots=0
+[2025.11.21-02.18.18:583][244]LogTemp: [Hero] ProcessCountCombo called Now=294.431949 Pending=1 Shots=0
+[2025.11.21-02.18.19:260][254]LogTemp: [Hero] ProcessCountCombo called Now=295.107520 Pending=1 Shots=0
+[2025.11.21-02.18.19:898][264]LogTemp: [Hero] ProcessCountCombo called Now=295.744646 Pending=1 Shots=0
+[2025.11.21-02.18.20:532][274]LogTemp: [Hero] ProcessCountCombo called Now=296.380429 Pending=1 Shots=0
+[2025.11.21-02.18.21:201][284]LogTemp: [Hero] ProcessCountCombo called Now=297.046374 Pending=1 Shots=0
+[2025.11.21-02.18.21:774][293]LogTemp: [Hero] ProcessCountCombo called Now=297.621200 Pending=1 Shots=0
+[2025.11.21-02.18.22:405][303]LogTemp: [Hero] ProcessCountCombo called Now=298.254440 Pending=1 Shots=0
+[2025.11.21-02.18.22:998][312]LogTemp: [Hero] ProcessCountCombo called Now=298.845967 Pending=1 Shots=0
+[2025.11.21-02.18.23:709][323]LogTemp: [Hero] ProcessCountCombo called Now=299.555085 Pending=1 Shots=0
+[2025.11.21-02.18.24:281][332]LogTemp: [Hero] ProcessCountCombo called Now=300.130736 Pending=1 Shots=0
+[2025.11.21-02.18.24:938][342]LogTemp: [Hero] ProcessCountCombo called Now=300.787558 Pending=1 Shots=0
+[2025.11.21-02.18.25:531][351]LogTemp: [Hero] ProcessCountCombo called Now=301.375300 Pending=1 Shots=0
+[2025.11.21-02.18.26:162][361]LogTemp: [Hero] ProcessCountCombo called Now=302.011344 Pending=1 Shots=0
+[2025.11.21-02.18.26:746][370]LogTemp: [Hero] ProcessCountCombo called Now=302.596290 Pending=1 Shots=0
+[2025.11.21-02.18.27:406][380]LogTemp: [Hero] ProcessCountCombo called Now=303.255202 Pending=1 Shots=0
+[2025.11.21-02.18.28:052][390]LogTemp: [Hero] ProcessCountCombo called Now=303.898766 Pending=1 Shots=0
+[2025.11.21-02.18.28:677][400]LogTemp: [Hero] ProcessCountCombo called Now=304.525893 Pending=1 Shots=0
+[2025.11.21-02.18.29:267][409]LogTemp: [Hero] ProcessCountCombo called Now=305.116089 Pending=1 Shots=0
+[2025.11.21-02.18.29:966][420]LogTemp: [Hero] ProcessCountCombo called Now=305.813777 Pending=1 Shots=0
+[2025.11.21-02.18.30:591][430]LogTemp: [Hero] ProcessCountCombo called Now=306.438895 Pending=1 Shots=0
+[2025.11.21-02.18.31:163][439]LogTemp: [Hero] ProcessCountCombo called Now=307.012468 Pending=1 Shots=0
+[2025.11.21-02.18.31:818][449]LogTemp: [Hero] ProcessCountCombo called Now=307.661058 Pending=1 Shots=0
+[2025.11.21-02.18.32:443][459]LogTemp: [Hero] ProcessCountCombo called Now=308.288054 Pending=1 Shots=0
+[2025.11.21-02.18.33:028][468]LogTemp: [Hero] ProcessCountCombo called Now=308.871589 Pending=1 Shots=0
+[2025.11.21-02.18.33:743][479]LogTemp: [Hero] ProcessCountCombo called Now=309.589117 Pending=1 Shots=0
+[2025.11.21-02.18.34:255][487]LogTemp: [Hero] ProcessCountCombo called Now=310.100941 Pending=1 Shots=0
+[2025.11.21-02.18.34:902][497]LogTemp: [Hero] ProcessCountCombo called Now=310.748576 Pending=1 Shots=0
+[2025.11.21-02.18.35:581][508]LogTemp: [Hero] ProcessCountCombo called Now=311.426574 Pending=1 Shots=0
+[2025.11.21-02.18.36:245][519]LogTemp: [Hero] ProcessCountCombo called Now=312.090220 Pending=1 Shots=0
+[2025.11.21-02.18.36:847][529]LogTemp: [Hero] ProcessCountCombo called Now=312.695851 Pending=1 Shots=0
+[2025.11.21-02.18.37:402][538]LogTemp: [Hero] ProcessCountCombo called Now=313.242852 Pending=1 Shots=0
+[2025.11.21-02.18.38:038][549]LogTemp: [Hero] ProcessCountCombo called Now=313.886549 Pending=1 Shots=0
+[2025.11.21-02.18.38:733][560]LogTemp: [Hero] ProcessCountCombo called Now=314.575942 Pending=1 Shots=0
+[2025.11.21-02.18.39:261][569]LogTemp: [Hero] ProcessCountCombo called Now=315.098812 Pending=1 Shots=0
+[2025.11.21-02.18.39:897][580]LogTemp: [Hero] ProcessCountCombo called Now=315.738220 Pending=1 Shots=0
+[2025.11.21-02.18.40:515][591]LogTemp: [Hero] ProcessCountCombo called Now=316.362592 Pending=1 Shots=0
+[2025.11.21-02.18.41:212][603]LogTemp: [Hero] ProcessCountCombo called Now=317.060572 Pending=1 Shots=0
+[2025.11.21-02.18.41:827][613]LogTemp: [Hero] ProcessCountCombo called Now=317.672950 Pending=1 Shots=0
+[2025.11.21-02.18.42:453][623]LogTemp: [Hero] ProcessCountCombo called Now=318.297767 Pending=1 Shots=0
+[2025.11.21-02.18.43:001][632]LogTemp: [Hero] ProcessCountCombo called Now=318.848482 Pending=1 Shots=0
+[2025.11.21-02.18.43:664][643]LogTemp: [Hero] ProcessCountCombo called Now=319.512179 Pending=1 Shots=0
+[2025.11.21-02.18.44:280][653]LogTemp: [Hero] ProcessCountCombo called Now=320.126052 Pending=1 Shots=0
+[2025.11.21-02.18.44:924][664]LogTemp: [Hero] ProcessCountCombo called Now=320.770989 Pending=1 Shots=0
+[2025.11.21-02.18.45:529][674]LogTemp: [Hero] ProcessCountCombo called Now=321.375188 Pending=1 Shots=0
+[2025.11.21-02.18.46:201][685]LogTemp: [Hero] ProcessCountCombo called Now=322.047908 Pending=1 Shots=0
+[2025.11.21-02.18.46:868][696]LogTemp: [Hero] ProcessCountCombo called Now=322.714529 Pending=1 Shots=0
+[2025.11.21-02.18.47:480][706]LogTemp: [Hero] ProcessCountCombo called Now=323.329353 Pending=1 Shots=0
+[2025.11.21-02.18.48:049][715]LogTemp: [Hero] ProcessCountCombo called Now=323.897400 Pending=1 Shots=0
+[2025.11.21-02.18.48:624][724]LogTemp: [Hero] ProcessCountCombo called Now=324.470359 Pending=1 Shots=0
+[2025.11.21-02.18.49:338][735]LogTemp: [Hero] ProcessCountCombo called Now=325.183771 Pending=1 Shots=0
+[2025.11.21-02.18.49:841][743]LogTemp: [Hero] ProcessCountCombo called Now=325.686991 Pending=1 Shots=0
+[2025.11.21-02.18.50:551][754]LogTemp: [Hero] ProcessCountCombo called Now=326.400650 Pending=1 Shots=0
+[2025.11.21-02.18.51:141][763]LogTemp: [Hero] ProcessCountCombo called Now=326.989450 Pending=1 Shots=0
+[2025.11.21-02.18.51:780][773]LogTemp: [Hero] ProcessCountCombo called Now=327.627717 Pending=1 Shots=0
+[2025.11.21-02.18.52:378][782]LogTemp: [Hero] ProcessCountCombo called Now=328.227525 Pending=1 Shots=0
+[2025.11.21-02.18.53:086][793]LogTemp: [Hero] ProcessCountCombo called Now=328.928356 Pending=1 Shots=0
+[2025.11.21-02.18.53:649][802]LogTemp: [Hero] ProcessCountCombo called Now=329.495336 Pending=1 Shots=0
+[2025.11.21-02.18.54:342][813]LogTemp: [Hero] ProcessCountCombo called Now=330.190702 Pending=1 Shots=0
+[2025.11.21-02.18.54:912][822]LogTemp: [Hero] ProcessCountCombo called Now=330.759903 Pending=1 Shots=0
+[2025.11.21-02.18.55:588][833]LogTemp: [Hero] ProcessCountCombo called Now=331.430245 Pending=1 Shots=0
+[2025.11.21-02.18.56:189][843]LogTemp: [Hero] ProcessCountCombo called Now=332.033470 Pending=1 Shots=0
+[2025.11.21-02.18.56:795][853]LogTemp: [Hero] ProcessCountCombo called Now=332.639165 Pending=1 Shots=0
+[2025.11.21-02.18.57:379][863]LogTemp: [Hero] ProcessCountCombo called Now=333.225358 Pending=1 Shots=0
+[2025.11.21-02.18.58:027][874]LogTemp: [Hero] ProcessCountCombo called Now=333.871038 Pending=1 Shots=0
+[2025.11.21-02.18.58:741][886]LogTemp: [Hero] ProcessCountCombo called Now=334.587276 Pending=1 Shots=0
+[2025.11.21-02.18.59:336][896]LogTemp: [Hero] ProcessCountCombo called Now=335.181305 Pending=1 Shots=0
+[2025.11.21-02.18.59:869][905]LogTemp: [Hero] ProcessCountCombo called Now=335.706945 Pending=1 Shots=1
+[2025.11.21-02.19.00:550][917]LogTemp: [Hero] ProcessCountCombo called Now=336.395379 Pending=1 Shots=0
+[2025.11.21-02.19.01:013][924]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_13.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.19.01:147][926]LogTemp: [Hero] ProcessCountCombo called Now=336.979362 Pending=1 Shots=2
+[2025.11.21-02.19.01:860][938]LogTemp: [Hero] ProcessCountCombo called Now=337.689940 Pending=1 Shots=1
+[2025.11.21-02.19.02:424][947]LogTemp: [Hero] ProcessCountCombo called Now=338.262515 Pending=1 Shots=2
+[2025.11.21-02.19.03:098][958]LogTemp: [Hero] ProcessCountCombo called Now=338.929960 Pending=1 Shots=2
+[2025.11.21-02.19.03:694][967]LogTemp: [Hero] ProcessCountCombo called Now=339.525536 Pending=1 Shots=3
+[2025.11.21-02.19.04:296][976]LogTemp: [Hero] ProcessCountCombo called Now=340.120123 Pending=1 Shots=3
+[2025.11.21-02.19.04:902][985]LogTemp: [Hero] ProcessCountCombo called Now=340.727497 Pending=1 Shots=3
+[2025.11.21-02.19.05:580][995]LogTemp: [Hero] ProcessCountCombo called Now=341.401870 Pending=1 Shots=4
+[2025.11.21-02.19.06:089][  2]LogTemp: [Hero] ProcessCountCombo called Now=341.911443 Pending=1 Shots=3
+[2025.11.21-02.19.06:783][ 12]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_4.W_Hill_C_14.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.19.06:783][ 12]LogTemp: [Hero] ProcessCountCombo called Now=342.617853 Pending=1 Shots=4
+[2025.11.21-02.19.07:402][ 21]LogTemp: [Hero] ProcessCountCombo called Now=343.238126 Pending=1 Shots=2
+[2025.11.21-02.19.08:112][ 32]LogTemp: [Hero] ProcessCountCombo called Now=343.948408 Pending=1 Shots=1
+[2025.11.21-02.19.08:717][ 42]LogTemp: [Hero] ProcessCountCombo called Now=344.560567 Pending=1 Shots=0
+[2025.11.21-02.19.09:341][ 53]LogTemp: [Hero] ProcessCountCombo called Now=345.176252 Pending=1 Shots=0
+[2025.11.21-02.19.09:961][ 65]LogTemp: [Hero] ProcessCountCombo called Now=345.808992 Pending=1 Shots=0
+[2025.11.21-02.19.10:632][ 77]LogTemp: [Hero] ProcessCountCombo called Now=346.478767 Pending=1 Shots=0
+[2025.11.21-02.19.11:236][ 88]LogTemp: [Hero] ProcessCountCombo called Now=347.079521 Pending=1 Shots=0
+[2025.11.21-02.19.11:889][100]LogTemp: [Hero] ProcessCountCombo called Now=347.738345 Pending=1 Shots=0
+[2025.11.21-02.19.12:269][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.19.12:269][106]LogWorld: BeginTearingDown for /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.19.12:271][106]LogSlate: Window 'Предпросмотр MusicGame [NetMode: Standalone 0]  (64 бит/PC D3D SM6)' being destroyed
+[2025.11.21-02.19.12:298][106]LogWorld: UWorld::CleanupWorld for FirstLvl, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-02.19.12:301][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.19.12:302][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-02.19.12:313][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.19.12:361][106]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.21-02.19.12:361][106]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.21-02.19.12:361][106]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.11.21-02.19.12:367][106]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.11.21-02.19.12:394][106]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2025.11.21-02.19.12:449][107]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.11.21-02.19.22:737][163]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4803.610352
+[2025.11.21-02.19.23:737][166]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.21-02.19.23:737][166]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4804.276855, Update Interval: 309.882507
+[2025.11.21-02.20.10:785][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2025.11.21-02.20.10:789][716]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstLvl' took 0.051
+[2025.11.21-02.20.10:790][716]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Hero/WBP_Hero_Health] ([2] browsable assets)...
+[2025.11.21-02.20.10:794][716]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Hero/WBP_Hero_Health.WBP_Hero_Health]
+[2025.11.21-02.20.10:794][716]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Hero/WBP_Hero_Health]
+[2025.11.21-02.20.10:832][716]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Hero/WBP_Hero_Health_Auto5
+[2025.11.21-02.20.10:832][716]LogSavePackage: Moving '../../../../../source/repos/it-clinic-gamedev/MusicGame/Saved/WBP_Hero_Health_Auto57B0D5BA04B0898ECD8EEFAA8DF1FC577.tmp' to '../../../../../source/repos/it-clinic-gamedev/MusicGame/Saved/Autosaves/Game/Blueprints/Hero/WBP_Hero_Health_Auto5.uasset'
+[2025.11.21-02.20.10:834][716]LogFileHelpers: Auto-saving content packages took 0.045
+[2025.11.21-02.23.41:125][798]Cmd: TRANSACTION UNDO
+[2025.11.21-02.23.41:126][798]LogEditorTransaction: Undo Редактировать Draw As
+[2025.11.21-02.24.26:314][357]LogSlate: Window 'Палитра' being destroyed
+[2025.11.21-02.24.29:679][498]LogDebuggerCommands: Repeating last play command: Выбранное окно просмотра
+[2025.11.21-02.24.29:710][498]LogPlayLevel: [PlayLevel] Compiling WBP_Hero_Health before play...
+[2025.11.21-02.24.30:150][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2025.11.21-02.24.30:168][498]LogPlayLevel: PlayLevel: Blueprint regeneration took 470 ms (1 blueprints)
+[2025.11.21-02.24.30:169][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.24.30:192][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022865s)
+[2025.11.21-02.24.30:193][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLvl.FirstLvl to /Game/UEDPIE_0_FirstLvl.FirstLvl (0.023220s)
+[2025.11.21-02.24.30:241][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.11.21-02.24.30:244][498]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstLvl
+[2025.11.21-02.24.30:247][498]LogPlayLevel: PIE: World Init took: (0.003171s)
+[2025.11.21-02.24.30:249][498]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.11.21-02.24.30:249][498]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-02.24.30:249][498]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-02.24.30:249][498]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-02.24.30:250][498]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-02.24.30:250][498]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-02.24.30:250][498]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-02.24.30:250][498]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-02.24.30:250][498]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-02.24.30:250][498]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-02.24.30:250][498]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-02.24.30:250][498]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-02.24.30:255][498]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-02.24.30:590][498]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.11.21-02.24.30:592][498]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-02.24.30:592][498]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-02.24.30:592][498]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-02.24.30:593][498]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.11.21-02.24.30:593][498]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.11.21-02.24.30:599][498]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.11.21-02.24.30:599][498]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.11.21-02.24.30:599][498]LogInit: FAudioDevice initialized with ID 7.
+[2025.11.21-02.24.30:599][498]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstLvl'.
+[2025.11.21-02.24.30:600][498]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.21-02.24.30:612][498]LogLoad: Game class is 'Gamemode_Base_C'
+[2025.11.21-02.24.30:747][498]LogWorld: Bringing World /Game/UEDPIE_0_FirstLvl.FirstLvl up for play (max tick rate 60) at 2025.11.21-05.24.30
+[2025.11.21-02.24.30:809][498]LogWorld: Bringing up level for play took: 0.196346
+[2025.11.21-02.24.30:815][498]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.11.21-02.24.49:628][498]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.21-02.24.49:632][498]PIE: Сервер вошел в систему
+[2025.11.21-02.24.49:637][498]PIE: Общее время запуска игры в редакторе: 19,938
+[2025.11.21-02.24.49:796][499]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.086009 > MaxSimulationTimeStep (0.050) for 'Blueprint_Hero_C_0', movement 'Walking'
+[2025.11.21-02.24.58:880][633]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_5.W_Hill_C_0.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.25.00:005][648]LogTemp: [Hero] ProcessCountCombo called Now=10.639049 Pending=1 Shots=0
+[2025.11.21-02.25.00:552][656]LogTemp: [Hero] ProcessCountCombo called Now=11.194627 Pending=1 Shots=0
+[2025.11.21-02.25.01:170][665]LogTemp: [Hero] ProcessCountCombo called Now=11.817748 Pending=1 Shots=0
+[2025.11.21-02.25.01:234][666]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.25.01:826][673]LogTemp: [Hero] ProcessCountCombo called Now=12.456838 Pending=1 Shots=0
+[2025.11.21-02.25.02:259][679]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.25.02:440][681]LogTemp: [Hero] ProcessCountCombo called Now=13.057250 Pending=1 Shots=0
+[2025.11.21-02.25.03:072][689]LogTemp: [Hero] ProcessCountCombo called Now=13.706402 Pending=1 Shots=0
+[2025.11.21-02.25.03:285][692]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.25.03:732][699]LogTemp: [Hero] ProcessCountCombo called Now=14.376433 Pending=1 Shots=0
+[2025.11.21-02.25.04:349][707]LogTemp: [Hero] ProcessCountCombo called Now=14.975412 Pending=1 Shots=0
+[2025.11.21-02.25.05:028][714]LogTemp: [Hero] ProcessCountCombo called Now=15.642034 Pending=1 Shots=0
+[2025.11.21-02.25.05:590][721]LogTemp: [Hero] ProcessCountCombo called Now=16.221828 Pending=1 Shots=0
+[2025.11.21-02.25.06:164][729]LogTemp: [Hero] ProcessCountCombo called Now=16.800654 Pending=1 Shots=0
+[2025.11.21-02.25.06:844][738]LogTemp: [Hero] ProcessCountCombo called Now=17.471787 Pending=1 Shots=0
+[2025.11.21-02.25.07:425][747]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.25.07:426][747]LogTemp: [Hero] ProcessCountCombo called Now=18.071993 Pending=1 Shots=0
+[2025.11.21-02.25.07:614][750]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.25.08:130][758]LogTemp: [Hero] ProcessCountCombo called Now=18.766643 Pending=1 Shots=0
+[2025.11.21-02.25.08:695][767]LogTemp: [Hero] ProcessCountCombo called Now=19.344964 Pending=1 Shots=0
+[2025.11.21-02.25.09:312][778]LogTemp: [Hero] ProcessCountCombo called Now=19.969751 Pending=1 Shots=0
+[2025.11.21-02.25.09:910][789]LogTemp: [Hero] ProcessCountCombo called Now=20.567432 Pending=1 Shots=0
+[2025.11.21-02.25.10:501][800]LogTemp: [Hero] ProcessCountCombo called Now=21.161653 Pending=1 Shots=0
+[2025.11.21-02.25.11:161][814]LogTemp: [Hero] ProcessCountCombo called Now=21.823871 Pending=1 Shots=0
+[2025.11.21-02.25.11:781][827]LogTemp: [Hero] ProcessCountCombo called Now=22.438688 Pending=1 Shots=0
+[2025.11.21-02.25.12:374][839]LogTemp: [Hero] ProcessCountCombo called Now=23.036430 Pending=1 Shots=0
+[2025.11.21-02.25.13:017][852]LogTemp: [Hero] ProcessCountCombo called Now=23.675207 Pending=1 Shots=0
+[2025.11.21-02.25.13:619][864]LogTemp: [Hero] ProcessCountCombo called Now=24.279027 Pending=1 Shots=0
+[2025.11.21-02.25.13:658][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.25.13:658][864]LogWorld: BeginTearingDown for /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.25.13:660][864]LogWorld: UWorld::CleanupWorld for FirstLvl, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-02.25.13:663][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.25.13:666][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-02.25.13:676][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.25.13:722][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.25.13:724][864]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.21-02.25.13:724][864]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.11.21-02.25.13:729][864]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.11.21-02.25.13:758][864]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2025.11.21-02.25.13:866][865]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.11.21-02.25.33:085][903]LogSlate: Window 'Палитра' being destroyed
+[2025.11.21-02.25.37:603][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2025.11.21-02.25.40:156][136]LogDebuggerCommands: Repeating last play command: Выбранное окно просмотра
+[2025.11.21-02.25.40:174][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-02.25.40:175][136]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.25.40:199][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024268s)
+[2025.11.21-02.25.40:199][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLvl.FirstLvl to /Game/UEDPIE_0_FirstLvl.FirstLvl (0.024636s)
+[2025.11.21-02.25.40:263][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2025.11.21-02.25.40:276][136]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstLvl
+[2025.11.21-02.25.40:280][136]LogPlayLevel: PIE: World Init took: (0.003931s)
+[2025.11.21-02.25.40:281][136]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.11.21-02.25.40:281][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-02.25.40:282][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-02.25.40:282][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-02.25.40:282][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-02.25.40:282][136]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-02.25.40:282][136]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-02.25.40:282][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-02.25.40:282][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-02.25.40:282][136]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-02.25.40:282][136]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-02.25.40:282][136]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-02.25.40:288][136]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-02.25.40:593][136]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.11.21-02.25.40:594][136]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-02.25.40:594][136]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-02.25.40:594][136]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-02.25.40:595][136]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.11.21-02.25.40:595][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.11.21-02.25.40:601][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.11.21-02.25.40:601][136]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.11.21-02.25.40:601][136]LogInit: FAudioDevice initialized with ID 8.
+[2025.11.21-02.25.40:601][136]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstLvl'.
+[2025.11.21-02.25.40:601][136]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.21-02.25.40:610][136]LogLoad: Game class is 'Gamemode_Base_C'
+[2025.11.21-02.25.40:731][136]LogWorld: Bringing World /Game/UEDPIE_0_FirstLvl.FirstLvl up for play (max tick rate 60) at 2025.11.21-05.25.40
+[2025.11.21-02.25.40:790][136]LogWorld: Bringing up level for play took: 0.179001
+[2025.11.21-02.25.40:795][136]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.11.21-02.25.59:561][136]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.21-02.25.59:565][136]PIE: Сервер вошел в систему
+[2025.11.21-02.25.59:571][136]PIE: Общее время запуска игры в редакторе: 19,396
+[2025.11.21-02.25.59:660][136]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5200.512695
+[2025.11.21-02.25.59:687][137]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.083390 > MaxSimulationTimeStep (0.050) for 'Blueprint_Hero_C_0', movement 'Walking'
+[2025.11.21-02.26.00:407][140]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.21-02.26.00:407][140]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5201.177734, Update Interval: 336.964630
+[2025.11.21-02.26.08:016][249]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_6.W_Hill_C_0.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.26.09:856][274]LogTemp: [Hero] ProcessCountCombo called Now=10.577911 Pending=1 Shots=0
+[2025.11.21-02.26.09:928][275]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.26.10:478][283]LogTemp: [Hero] ProcessCountCombo called Now=11.198428 Pending=1 Shots=0
+[2025.11.21-02.26.11:002][290]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.26.11:137][292]LogTemp: [Hero] ProcessCountCombo called Now=11.859593 Pending=1 Shots=0
+[2025.11.21-02.26.11:759][301]LogTemp: [Hero] ProcessCountCombo called Now=12.474910 Pending=1 Shots=0
+[2025.11.21-02.26.12:363][309]LogTemp: [Hero] ProcessCountCombo called Now=13.084396 Pending=1 Shots=0
+[2025.11.21-02.26.12:994][318]LogTemp: [Hero] ProcessCountCombo called Now=13.711379 Pending=1 Shots=0
+[2025.11.21-02.26.13:650][327]LogTemp: [Hero] ProcessCountCombo called Now=14.366770 Pending=1 Shots=0
+[2025.11.21-02.26.14:271][335]LogTemp: [Hero] ProcessCountCombo called Now=14.979741 Pending=1 Shots=0
+[2025.11.21-02.26.14:869][343]LogTemp: [Hero] ProcessCountCombo called Now=15.585829 Pending=1 Shots=0
+[2025.11.21-02.26.15:655][352]LogTemp: [Hero] ProcessCountCombo called Now=16.340068 Pending=1 Shots=0
+[2025.11.21-02.26.16:164][357]LogTemp: [Hero] ProcessCountCombo called Now=16.872414 Pending=1 Shots=0
+[2025.11.21-02.26.16:820][365]LogTemp: [Hero] ProcessCountCombo called Now=17.529059 Pending=1 Shots=0
+[2025.11.21-02.26.17:121][369]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.26.17:407][373]LogTemp: [Hero] ProcessCountCombo called Now=18.127274 Pending=1 Shots=0
+[2025.11.21-02.26.17:976][381]LogTemp: [Hero] ProcessCountCombo called Now=18.688345 Pending=1 Shots=0
+[2025.11.21-02.26.18:622][390]LogTemp: [Hero] ProcessCountCombo called Now=19.332093 Pending=1 Shots=0
+[2025.11.21-02.26.18:958][395]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.26.19:240][399]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.26.19:241][399]LogTemp: [Hero] ProcessCountCombo called Now=19.951864 Pending=1 Shots=0
+[2025.11.21-02.26.19:835][408]LogTemp: [Hero] ProcessCountCombo called Now=20.560787 Pending=1 Shots=0
+[2025.11.21-02.26.20:425][417]LogTemp: [Hero] ProcessCountCombo called Now=21.154886 Pending=1 Shots=0
+[2025.11.21-02.26.21:102][428]LogTemp: [Hero] ProcessCountCombo called Now=21.839090 Pending=1 Shots=0
+[2025.11.21-02.26.21:744][439]LogTemp: [Hero] ProcessCountCombo called Now=22.473830 Pending=1 Shots=0
+[2025.11.21-02.26.22:364][450]LogTemp: [Hero] ProcessCountCombo called Now=23.095264 Pending=1 Shots=0
+[2025.11.21-02.26.22:982][460]LogTemp: [Hero] ProcessCountCombo called Now=23.708553 Pending=1 Shots=0
+[2025.11.21-02.26.23:575][469]LogTemp: [Hero] ProcessCountCombo called Now=24.284809 Pending=1 Shots=0
+[2025.11.21-02.26.24:248][480]LogTemp: [Hero] ProcessCountCombo called Now=24.977864 Pending=1 Shots=0
+[2025.11.21-02.26.24:807][488]LogTemp: [Hero] ProcessCountCombo called Now=25.535781 Pending=1 Shots=0
+[2025.11.21-02.26.25:496][498]LogTemp: [Hero] ProcessCountCombo called Now=26.196444 Pending=1 Shots=0
+[2025.11.21-02.26.26:131][508]LogTemp: [Hero] ProcessCountCombo called Now=26.849637 Pending=1 Shots=0
+[2025.11.21-02.26.26:814][519]LogTemp: [Hero] ProcessCountCombo called Now=27.541358 Pending=1 Shots=0
+[2025.11.21-02.26.27:358][528]LogTemp: [Hero] ProcessCountCombo called Now=28.091200 Pending=1 Shots=0
+[2025.11.21-02.26.27:994][539]LogTemp: [Hero] ProcessCountCombo called Now=28.724256 Pending=1 Shots=0
+[2025.11.21-02.26.28:576][549]LogTemp: [Hero] ProcessCountCombo called Now=29.308983 Pending=1 Shots=0
+[2025.11.21-02.26.29:225][560]LogTemp: [Hero] ProcessCountCombo called Now=29.954674 Pending=1 Shots=0
+[2025.11.21-02.26.29:896][571]LogTemp: [Hero] ProcessCountCombo called Now=30.630025 Pending=1 Shots=0
+[2025.11.21-02.26.30:499][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.26.30:499][580]LogWorld: BeginTearingDown for /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.26.30:502][580]LogWorld: UWorld::CleanupWorld for FirstLvl, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-02.26.30:504][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.26.30:507][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-02.26.30:516][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.26.30:564][580]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.21-02.26.30:565][580]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.21-02.26.30:565][580]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.11.21-02.26.30:571][580]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.11.21-02.26.30:588][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.26.30:600][580]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2025.11.21-02.26.30:717][581]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.11.21-02.26.40:537][ 31]LogSlate: Window 'Палитра' being destroyed
+[2025.11.21-02.26.42:760][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2025.11.21-02.26.45:926][243]LogDebuggerCommands: Repeating last play command: Выбранное окно просмотра
+[2025.11.21-02.26.45:946][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-02.26.45:946][243]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.26.45:976][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029129s)
+[2025.11.21-02.26.45:976][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLvl.FirstLvl to /Game/UEDPIE_0_FirstLvl.FirstLvl (0.029543s)
+[2025.11.21-02.26.46:039][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2025.11.21-02.26.46:052][243]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstLvl
+[2025.11.21-02.26.46:055][243]LogPlayLevel: PIE: World Init took: (0.003556s)
+[2025.11.21-02.26.46:057][243]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.11.21-02.26.46:057][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-02.26.46:058][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-02.26.46:058][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-02.26.46:058][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-02.26.46:058][243]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-02.26.46:058][243]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-02.26.46:058][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-02.26.46:058][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-02.26.46:058][243]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-02.26.46:058][243]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-02.26.46:058][243]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-02.26.46:063][243]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-02.26.46:400][243]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.11.21-02.26.46:401][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-02.26.46:401][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-02.26.46:401][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-02.26.46:403][243]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.11.21-02.26.46:403][243]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.11.21-02.26.46:409][243]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.11.21-02.26.46:409][243]LogInit: FAudioDevice initialized with ID 9.
+[2025.11.21-02.26.46:409][243]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstLvl'.
+[2025.11.21-02.26.46:409][243]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.11.21-02.26.46:409][243]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.11.21-02.26.46:419][243]LogLoad: Game class is 'Gamemode_Base_C'
+[2025.11.21-02.26.46:552][243]LogWorld: Bringing World /Game/UEDPIE_0_FirstLvl.FirstLvl up for play (max tick rate 60) at 2025.11.21-05.26.46
+[2025.11.21-02.26.46:623][243]LogWorld: Bringing up level for play took: 0.203316
+[2025.11.21-02.26.46:629][243]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.11.21-02.27.05:456][243]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.21-02.27.05:461][243]PIE: Сервер вошел в систему
+[2025.11.21-02.27.05:465][243]PIE: Общее время запуска игры в редакторе: 19,519
+[2025.11.21-02.27.05:578][244]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078799 > MaxSimulationTimeStep (0.050) for 'Blueprint_Hero_C_0', movement 'Walking'
+[2025.11.21-02.27.13:910][352]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_7.W_Hill_C_0.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.27.15:809][378]LogTemp: [Hero] ProcessCountCombo called Now=10.635056 Pending=1 Shots=0
+[2025.11.21-02.27.15:876][379]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.27.16:419][387]LogTemp: [Hero] ProcessCountCombo called Now=11.243916 Pending=1 Shots=0
+[2025.11.21-02.27.16:908][394]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.27.17:047][396]LogTemp: [Hero] ProcessCountCombo called Now=11.867986 Pending=1 Shots=0
+[2025.11.21-02.27.17:715][405]LogTemp: [Hero] ProcessCountCombo called Now=12.534754 Pending=1 Shots=0
+[2025.11.21-02.27.17:936][408]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.27.18:287][413]LogTemp: [Hero] ProcessCountCombo called Now=13.108147 Pending=1 Shots=0
+[2025.11.21-02.27.18:878][421]LogTemp: [Hero] ProcessCountCombo called Now=13.689163 Pending=1 Shots=0
+[2025.11.21-02.27.19:638][429]LogTemp: [Hero] ProcessCountCombo called Now=14.412162 Pending=1 Shots=0
+[2025.11.21-02.27.20:149][434]LogTemp: [Hero] ProcessCountCombo called Now=14.948394 Pending=1 Shots=0
+[2025.11.21-02.27.20:813][442]LogTemp: [Hero] ProcessCountCombo called Now=15.630125 Pending=1 Shots=0
+[2025.11.21-02.27.21:394][450]LogTemp: [Hero] ProcessCountCombo called Now=16.219908 Pending=1 Shots=0
+[2025.11.21-02.27.21:531][452]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.27.22:017][459]LogTemp: [Hero] ProcessCountCombo called Now=16.838994 Pending=1 Shots=0
+[2025.11.21-02.27.22:086][460]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.27.22:624][468]LogTemp: [Hero] ProcessCountCombo called Now=17.451108 Pending=1 Shots=0
+[2025.11.21-02.27.23:299][479]LogTemp: [Hero] ProcessCountCombo called Now=18.131644 Pending=1 Shots=0
+[2025.11.21-02.27.23:887][489]LogTemp: [Hero] ProcessCountCombo called Now=18.719053 Pending=1 Shots=0
+[2025.11.21-02.27.24:549][500]LogTemp: [Hero] ProcessCountCombo called Now=19.384336 Pending=1 Shots=0
+[2025.11.21-02.27.25:133][509]LogTemp: [Hero] ProcessCountCombo called Now=19.961320 Pending=1 Shots=0
+[2025.11.21-02.27.25:768][519]LogTemp: [Hero] ProcessCountCombo called Now=20.595906 Pending=1 Shots=0
+[2025.11.21-02.27.26:381][529]LogTemp: [Hero] ProcessCountCombo called Now=21.212259 Pending=1 Shots=0
+[2025.11.21-02.27.27:003][539]LogTemp: [Hero] ProcessCountCombo called Now=21.835690 Pending=1 Shots=0
+[2025.11.21-02.27.27:573][548]LogTemp: [Hero] ProcessCountCombo called Now=22.404570 Pending=1 Shots=0
+[2025.11.21-02.27.28:264][559]LogTemp: [Hero] ProcessCountCombo called Now=23.088266 Pending=1 Shots=0
+[2025.11.21-02.27.28:867][568]LogTemp: [Hero] ProcessCountCombo called Now=23.690428 Pending=1 Shots=0
+[2025.11.21-02.27.29:460][577]LogTemp: [Hero] ProcessCountCombo called Now=24.286600 Pending=1 Shots=0
+[2025.11.21-02.27.30:169][588]LogTemp: [Hero] ProcessCountCombo called Now=25.003443 Pending=1 Shots=0
+[2025.11.21-02.27.30:400][592]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_7.W_Hill_C_1.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.27.30:744][598]LogTemp: [Hero] ProcessCountCombo called Now=25.583632 Pending=1 Shots=0
+[2025.11.21-02.27.31:028][603]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.27.31:371][609]LogTemp: [Hero] ProcessCountCombo called Now=26.212828 Pending=1 Shots=0
+[2025.11.21-02.27.31:983][620]LogTemp: [Hero] ProcessCountCombo called Now=26.827873 Pending=1 Shots=0
+[2025.11.21-02.27.32:036][621]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.27.32:684][632]LogTemp: [Hero] ProcessCountCombo called Now=27.518681 Pending=1 Shots=0
+[2025.11.21-02.27.33:042][638]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.27.33:280][642]LogTemp: [Hero] ProcessCountCombo called Now=28.111025 Pending=1 Shots=0
+[2025.11.21-02.27.33:929][653]LogTemp: [Hero] ProcessCountCombo called Now=28.764129 Pending=1 Shots=0
+[2025.11.21-02.27.34:095][656]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.27.34:501][663]LogTemp: [Hero] ProcessCountCombo called Now=29.337386 Pending=1 Shots=0
+[2025.11.21-02.27.35:074][672]LogTemp: [Hero] ProcessCountCombo called Now=29.913769 Pending=1 Shots=0
+[2025.11.21-02.27.35:782][684]LogTemp: [Hero] ProcessCountCombo called Now=30.620603 Pending=1 Shots=0
+[2025.11.21-02.27.35:899][686]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_7.W_Hill_C_2.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.27.36:393][694]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.27.36:394][694]LogTemp: [Hero] ProcessCountCombo called Now=31.230236 Pending=1 Shots=0
+[2025.11.21-02.27.36:971][704]LogTemp: [Hero] ProcessCountCombo called Now=31.805264 Pending=1 Shots=0
+[2025.11.21-02.27.37:436][712]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.27.37:603][715]LogTemp: [Hero] ProcessCountCombo called Now=32.443064 Pending=1 Shots=0
+[2025.11.21-02.27.38:258][726]LogTemp: [Hero] ProcessCountCombo called Now=33.092274 Pending=1 Shots=0
+[2025.11.21-02.27.38:491][730]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.27.38:901][737]LogTemp: [Hero] ProcessCountCombo called Now=33.739247 Pending=1 Shots=0
+[2025.11.21-02.27.39:507][747]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.27.39:508][747]LogTemp: [Hero] ProcessCountCombo called Now=34.342683 Pending=1 Shots=0
+[2025.11.21-02.27.40:157][758]LogTemp: [Hero] ProcessCountCombo called Now=34.985119 Pending=1 Shots=0
+[2025.11.21-02.27.40:734][767]LogTemp: [Hero] ProcessCountCombo called Now=35.564901 Pending=1 Shots=0
+[2025.11.21-02.27.41:176][773]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_7.W_Hill_C_3.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.27.41:396][776]LogTemp: [Hero] ProcessCountCombo called Now=36.209522 Pending=1 Shots=0
+[2025.11.21-02.27.42:021][786]LogTemp: [Hero] ProcessCountCombo called Now=36.851204 Pending=1 Shots=0
+[2025.11.21-02.27.42:412][793]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.27.42:638][797]LogTemp: [Hero] ProcessCountCombo called Now=37.472390 Pending=1 Shots=0
+[2025.11.21-02.27.43:268][808]LogTemp: [Hero] ProcessCountCombo called Now=38.105512 Pending=1 Shots=0
+[2025.11.21-02.27.43:447][811]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.27.43:908][819]LogTemp: [Hero] ProcessCountCombo called Now=38.741288 Pending=1 Shots=0
+[2025.11.21-02.27.44:499][829]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.27.44:561][830]LogTemp: [Hero] ProcessCountCombo called Now=39.395352 Pending=1 Shots=0
+[2025.11.21-02.27.45:144][840]LogTemp: [Hero] ProcessCountCombo called Now=39.978956 Pending=1 Shots=0
+[2025.11.21-02.27.45:730][849]LogTemp: [Hero] ProcessCountCombo called Now=40.556242 Pending=1 Shots=0
+[2025.11.21-02.27.46:326][858]LogTemp: [Hero] ProcessCountCombo called Now=41.147206 Pending=1 Shots=0
+[2025.11.21-02.27.47:003][869]LogTemp: [Hero] ProcessCountCombo called Now=41.841167 Pending=1 Shots=0
+[2025.11.21-02.27.47:630][879]LogTemp: [Hero] ProcessCountCombo called Now=42.462973 Pending=1 Shots=0
+[2025.11.21-02.27.48:207][888]LogTemp: [Hero] ProcessCountCombo called Now=43.030706 Pending=1 Shots=0
+[2025.11.21-02.27.48:882][898]LogTemp: [Hero] ProcessCountCombo called Now=43.703282 Pending=1 Shots=0
+[2025.11.21-02.27.49:504][907]LogTemp: [Hero] ProcessCountCombo called Now=44.330699 Pending=1 Shots=0
+[2025.11.21-02.27.50:115][917]LogTemp: [Hero] ProcessCountCombo called Now=44.951352 Pending=1 Shots=0
+[2025.11.21-02.27.50:543][924]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.27.50:658][926]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_7.W_Hill_C_4.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.27.50:776][928]LogTemp: [Hero] ProcessCountCombo called Now=45.609600 Pending=1 Shots=0
+[2025.11.21-02.27.51:368][938]LogTemp: [Hero] ProcessCountCombo called Now=46.199561 Pending=1 Shots=0
+[2025.11.21-02.27.52:047][948]LogTemp: [Hero] ProcessCountCombo called Now=46.868571 Pending=1 Shots=0
+[2025.11.21-02.27.52:684][958]LogTemp: [Hero] ProcessCountCombo called Now=47.506309 Pending=1 Shots=0
+[2025.11.21-02.27.53:250][967]LogTemp: [Hero] ProcessCountCombo called Now=48.089162 Pending=1 Shots=0
+[2025.11.21-02.27.53:879][978]LogTemp: [Hero] ProcessCountCombo called Now=48.714805 Pending=1 Shots=0
+[2025.11.21-02.27.54:059][981]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.27.54:538][989]LogTemp: [Hero] ProcessCountCombo called Now=49.372129 Pending=1 Shots=0
+[2025.11.21-02.27.55:082][998]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.27.55:083][998]LogTemp: [Hero] ProcessCountCombo called Now=49.920125 Pending=1 Shots=0
+[2025.11.21-02.27.55:737][  9]LogTemp: [Hero] ProcessCountCombo called Now=50.575588 Pending=1 Shots=0
+[2025.11.21-02.27.56:380][ 19]LogTemp: [Hero] ProcessCountCombo called Now=51.204425 Pending=1 Shots=0
+[2025.11.21-02.27.56:996][ 28]LogTemp: [Hero] ProcessCountCombo called Now=51.825447 Pending=1 Shots=0
+[2025.11.21-02.27.57:633][ 38]LogTemp: [Hero] ProcessCountCombo called Now=52.463309 Pending=1 Shots=0
+[2025.11.21-02.27.58:250][ 47]LogTemp: [Hero] ProcessCountCombo called Now=53.069715 Pending=1 Shots=0
+[2025.11.21-02.27.58:857][ 56]LogTemp: [Hero] ProcessCountCombo called Now=53.678036 Pending=1 Shots=0
+[2025.11.21-02.27.59:460][ 65]LogTemp: [Hero] ProcessCountCombo called Now=54.284022 Pending=1 Shots=0
+[2025.11.21-02.28.00:164][ 76]LogTemp: [Hero] ProcessCountCombo called Now=54.992123 Pending=1 Shots=0
+[2025.11.21-02.28.00:709][ 85]LogTemp: [Hero] ProcessCountCombo called Now=55.546122 Pending=1 Shots=0
+[2025.11.21-02.28.01:377][ 97]LogTemp: [Hero] ProcessCountCombo called Now=56.215447 Pending=1 Shots=0
+[2025.11.21-02.28.02:007][108]LogTemp: [Hero] ProcessCountCombo called Now=56.846989 Pending=1 Shots=0
+[2025.11.21-02.28.02:618][119]LogTemp: [Hero] ProcessCountCombo called Now=57.452139 Pending=1 Shots=0
+[2025.11.21-02.28.03:198][129]LogTemp: [Hero] ProcessCountCombo called Now=58.034394 Pending=1 Shots=0
+[2025.11.21-02.28.03:819][140]LogTemp: [Hero] ProcessCountCombo called Now=58.658390 Pending=1 Shots=0
+[2025.11.21-02.28.04:472][151]LogTemp: [Hero] ProcessCountCombo called Now=59.306137 Pending=1 Shots=0
+[2025.11.21-02.28.05:057][160]LogTemp: [Hero] ProcessCountCombo called Now=59.881067 Pending=1 Shots=0
+[2025.11.21-02.28.05:723][170]LogTemp: [Hero] ProcessCountCombo called Now=60.549337 Pending=1 Shots=0
+[2025.11.21-02.28.06:366][180]LogTemp: [Hero] ProcessCountCombo called Now=61.193417 Pending=1 Shots=0
+[2025.11.21-02.28.06:948][189]LogTemp: [Hero] ProcessCountCombo called Now=61.778712 Pending=1 Shots=0
+[2025.11.21-02.28.07:619][200]LogTemp: [Hero] ProcessCountCombo called Now=62.447689 Pending=1 Shots=0
+[2025.11.21-02.28.07:915][205]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.28.08:288][211]LogTemp: [Hero] ProcessCountCombo called Now=63.120901 Pending=1 Shots=0
+[2025.11.21-02.28.08:851][220]LogTemp: [Hero] ProcessCountCombo called Now=63.685991 Pending=1 Shots=0
+[2025.11.21-02.28.08:970][222]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.28.09:469][230]LogTemp: [Hero] ProcessCountCombo called Now=64.302148 Pending=1 Shots=0
+[2025.11.21-02.28.10:135][241]LogTemp: [Hero] ProcessCountCombo called Now=64.969416 Pending=1 Shots=0
+[2025.11.21-02.28.10:775][252]LogTemp: [Hero] ProcessCountCombo called Now=65.611731 Pending=1 Shots=0
+[2025.11.21-02.28.11:417][263]LogTemp: [Hero] ProcessCountCombo called Now=66.245345 Pending=1 Shots=0
+[2025.11.21-02.28.11:924][271]LogTemp: [Hero] ProcessCountCombo called Now=66.750845 Pending=1 Shots=0
+[2025.11.21-02.28.12:625][282]LogTemp: [Hero] ProcessCountCombo called Now=67.454840 Pending=1 Shots=0
+[2025.11.21-02.28.13:309][293]LogTemp: [Hero] ProcessCountCombo called Now=68.137592 Pending=1 Shots=0
+[2025.11.21-02.28.13:833][301]LogTemp: [Hero] ProcessCountCombo called Now=68.660430 Pending=1 Shots=0
+[2025.11.21-02.28.14:492][311]LogTemp: [Hero] ProcessCountCombo called Now=69.316419 Pending=1 Shots=0
+[2025.11.21-02.28.15:106][320]LogTemp: [Hero] ProcessCountCombo called Now=69.932411 Pending=1 Shots=0
+[2025.11.21-02.28.15:801][331]LogTemp: [Hero] ProcessCountCombo called Now=70.632627 Pending=1 Shots=0
+[2025.11.21-02.28.16:049][335]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.28.16:424][341]LogTemp: [Hero] ProcessCountCombo called Now=71.254967 Pending=1 Shots=0
+[2025.11.21-02.28.16:985][350]LogTemp: [Hero] ProcessCountCombo called Now=71.814778 Pending=1 Shots=0
+[2025.11.21-02.28.17:107][352]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.28.17:677][361]LogTemp: [Hero] ProcessCountCombo called Now=72.506115 Pending=1 Shots=0
+[2025.11.21-02.28.18:119][368]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.28.18:179][369]LogTemp: [Hero] ProcessCountCombo called Now=73.015049 Pending=1 Shots=0
+[2025.11.21-02.28.18:798][379]LogTemp: [Hero] ProcessCountCombo called Now=73.627608 Pending=1 Shots=0
+[2025.11.21-02.28.19:452][389]LogTemp: [Hero] ProcessCountCombo called Now=74.275991 Pending=1 Shots=0
+[2025.11.21-02.28.20:046][398]LogTemp: [Hero] ProcessCountCombo called Now=74.868098 Pending=1 Shots=0
+[2025.11.21-02.28.20:704][408]LogTemp: [Hero] ProcessCountCombo called Now=75.539075 Pending=1 Shots=0
+[2025.11.21-02.28.21:301][417]LogTemp: [Hero] ProcessCountCombo called Now=76.125987 Pending=1 Shots=0
+[2025.11.21-02.28.21:702][423]PIE: UWidget::RemoveFromParent() вызван на '/Engine/Transient.UnrealEdEngine_0:GameInstance_7.W_Hill_C_5.WidgetTree_0.W_InfoWindow' без родительского элемента UMG (если он был добавлен напрямую к собственному виджету Slate через TakeWidget(), его следует удалить непосредственно, а не через RemoveFromParent())
+[2025.11.21-02.28.22:027][428]LogTemp: [Hero] ProcessCountCombo called Now=76.854832 Pending=1 Shots=0
+[2025.11.21-02.28.22:619][437]LogTemp: [Hero] ProcessCountCombo called Now=77.444751 Pending=1 Shots=0
+[2025.11.21-02.28.23:250][446]LogTemp: [Hero] ProcessCountCombo called Now=78.060917 Pending=1 Shots=0
+[2025.11.21-02.28.23:863][455]LogTemp: [Hero] ProcessCountCombo called Now=78.696519 Pending=1 Shots=0
+[2025.11.21-02.28.24:489][465]LogTemp: [Hero] ProcessCountCombo called Now=79.321514 Pending=1 Shots=0
+[2025.11.21-02.28.24:611][467]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 80Health: 
+[2025.11.21-02.28.25:109][475]LogTemp: [Hero] ProcessCountCombo called Now=79.940142 Pending=1 Shots=0
+[2025.11.21-02.28.25:741][484]LogTemp: [Hero] ProcessCountCombo called Now=80.563911 Pending=1 Shots=0
+[2025.11.21-02.28.26:364][493]LogTemp: [Hero] ProcessCountCombo called Now=81.189951 Pending=1 Shots=0
+[2025.11.21-02.28.27:014][502]LogTemp: [Hero] ProcessCountCombo called Now=81.833760 Pending=1 Shots=0
+[2025.11.21-02.28.27:556][510]LogTemp: [Hero] ProcessCountCombo called Now=82.380572 Pending=1 Shots=0
+[2025.11.21-02.28.27:968][516]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 60Health: 
+[2025.11.21-02.28.28:101][518]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 40Health: 
+[2025.11.21-02.28.28:159][519]LogTemp: [Hero] ProcessCountCombo called Now=82.995238 Pending=1 Shots=0
+[2025.11.21-02.28.28:557][525]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 20Health: 
+[2025.11.21-02.28.28:829][529]LogTemp: [Hero] ProcessCountCombo called Now=83.654484 Pending=1 Shots=0
+[2025.11.21-02.28.29:028][532]LogBlueprintUserMessages: [Blueprint_Hero_C_0] 0Health: 
+[2025.11.21-02.28.29:413][538]LogTemp: [Hero] ProcessCountCombo called Now=84.241890 Pending=1 Shots=0
+[2025.11.21-02.28.30:048][548]LogTemp: [Hero] ProcessCountCombo called Now=84.879648 Pending=1 Shots=0
+[2025.11.21-02.28.30:763][560]LogTemp: [Hero] ProcessCountCombo called Now=85.597070 Pending=1 Shots=0
+[2025.11.21-02.28.31:361][570]LogTemp: [Hero] ProcessCountCombo called Now=86.179684 Pending=1 Shots=0
+[2025.11.21-02.28.31:984][580]LogTemp: [Hero] ProcessCountCombo called Now=86.815135 Pending=1 Shots=0
+[2025.11.21-02.28.32:250][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.28.32:250][584]LogWorld: BeginTearingDown for /Game/UEDPIE_0_FirstLvl
+[2025.11.21-02.28.32:253][584]LogWorld: UWorld::CleanupWorld for FirstLvl, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-02.28.32:256][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.28.32:258][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-02.28.32:268][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-02.28.32:317][584]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.21-02.28.32:318][584]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.11.21-02.28.32:318][584]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.11.21-02.28.32:323][584]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.11.21-02.28.32:340][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-02.28.32:352][584]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2025.11.21-02.28.32:471][585]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.11.21-02.29.37:294][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2025.11.21-02.29.43:601][630]LogSlate: Window 'Сохранять контент' being destroyed
