@@ -23,7 +23,7 @@ void AHero_Base::BeginPlay()
 void AHero_Base::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
-    Timer += DeltaTime; // Увеличиваем таймер каждый кадр
+    Timer += DeltaTime; // Increase timer every frame
 }
 
 void AHero_Base::RegisterShot()
@@ -41,17 +41,17 @@ void AHero_Base::Count_Combo()
         return;
     }
 
-    // захватываем момент бита именно сейчас (BeatTime)
+    // capture beat moment in current time (BeatTime)
     double BeatTimeNow = UGameplayStatics::GetTimeSeconds(GetWorld());
     PendingBeats.Add(BeatTimeNow);
 
-    // ставим таймер, который вызовет ProcessCountCombo через задержку BeatWindow
+    // set timer to call ProcessCountCombo after BeatWindow delay
     FTimerHandle ComboTimerHandle;
     GetWorld()->GetTimerManager().SetTimer(
         ComboTimerHandle,
         this,
         &AHero_Base::ProcessCountCombo,
-        BeatWindow,  // задержка чтобы посчитать попадания, если игрок нажал позже бита
+        BeatWindow,   // delay
         false
     );
 }
@@ -63,10 +63,9 @@ void AHero_Base::ProcessCountCombo()
     double Now = UGameplayStatics::GetTimeSeconds(GetWorld());
     UE_LOG(LogTemp, Log, TEXT("[Hero] ProcessCountCombo called Now=%f Pending=%d Shots=%d"),
         Now, PendingBeats.Num(), ShotTimes.Num());
-    // Соберём все PendingBeats, которые ещё не обработаны.
-    // (Поскольку мы ставим таймер на каждый scheduled beat, обычно они все уже готовы.)
+    // take all PendingBeats, which are not processed.
     TArray<double> BeatsToProcess = PendingBeats;
-    PendingBeats.Empty(); // помечаем их как "в обработке/удаляем" — предотвратит повторную обработку
+    PendingBeats.Empty(); // point it as "in process" to prevent repeated processing
 
     for (double BeatTime : BeatsToProcess)
     {
@@ -108,7 +107,7 @@ void AHero_Base::ProcessCountCombo()
             IsFailed = false;
         }
 
-        // удаляем из ShotTimes всё, что уже обработано (<= правой границы)
+        // delete from ShotTimes anythyng that was processed(<= right board)
         ShotTimes.RemoveAll([WindowEnd](double T) { return T <= WindowEnd; });
     }
 }

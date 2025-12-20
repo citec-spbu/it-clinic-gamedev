@@ -15,22 +15,22 @@ public:
     virtual void Tick(float DeltaTime) override;
     virtual void BeginPlay() override;
 
-    // Вызывать при выстреле (например, из блюпринта или кода)
+    // Calls when hero shots
     UFUNCTION(BlueprintCallable, Category = "Hero|Combat")
     void RegisterShot();
 
-    // Вызывать на каждый бит музыки
+    // Calls when music beats
     UFUNCTION(BlueprintCallable, Category = "Hero|Combat")
     void Count_Combo();
 
-    // Вызывать через таймер — считает попадания в окно
+    // Call with timer delay
     void ProcessCountCombo();
 
-    // Текущий урон (с учётом комбо)
+    // Current damage (including combo)
     UPROPERTY(BlueprintReadOnly, Category = "Hero|Combat")
     double Damage;
 
-    // Флаг усиленного режима по текущему урону
+    // Flag for powered mode
     UPROPERTY(BlueprintReadOnly, Category = "Hero|Combat")
     bool IsReinforced;
 
@@ -40,7 +40,7 @@ public:
     UPROPERTY(BlueprintReadWrite, Category = "Hero|Combat")
     bool IsCanReinforced;
 
-    // Настройки окна попадания и сил комбо
+    // setting for hit frae and power combo
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hero|Settings")
     double BeatWindow = 0.19;
 
@@ -57,11 +57,11 @@ public:
     double ReinforcedThreshold = 15.0;
 
 private:
-    // Сервисные поля:
-    double Timer;                  // Таймер с предыдущего бита
-    // Абсолютные времена выстрелов (GetTimeSeconds)
+    // Services fields:
+    double Timer;                  // Timer from las beat
+    // Absolute time of shots
     TArray<double> ShotTimes;
 
-    // Моменты битов, которые нужно обработать (хранятся в момент ScheduleCountCombo)
+    // Beat's moment we need to process
     TArray<double> PendingBeats;
 };
